@@ -24,3 +24,9 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local-only orchestrator tooling (kept on disk, not part of this repo)
+paper_agent/
+pyproject.toml
+run_paper.sh
+status.sh
