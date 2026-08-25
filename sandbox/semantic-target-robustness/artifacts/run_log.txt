@@ -1,0 +1,48 @@
+[p1] loaded 549 records, split train=383 val=83 test=83
+[p1] built rollout m=3/m=5 texts from existing continuation_token_ids
+[p1] built 6 logit-lens variant text sets (layer 20, 83 test examples)
+
+=== E1_MiniLM (sentence-transformers/all-MiniLM-L6-v2, prefix='') ===
+[p1] E1_MiniLM: reused existing continuation_embeddings.npy shape=(549, 384)
+[p1] E1_MiniLM layer 4: alpha=1000.0 val_cos=0.3114 test_cos=0.3363
+[p1] E1_MiniLM layer 8: alpha=1000.0 val_cos=0.3233 test_cos=0.3412
+[p1] E1_MiniLM layer 12: alpha=1000.0 val_cos=0.3432 test_cos=0.3670
+[p1] E1_MiniLM layer 20: alpha=10000.0 val_cos=0.3996 test_cos=0.4283
+[p1] E1_MiniLM best layer by val cosine: 20 (test_cos=0.4283)
+[p1] E1_MiniLM mean_cos=0.2310 random_cos=0.0616 lexical_cos=0.3612
+[p1] E1_MiniLM best logit-lens variant: topk_weighted_k10 cos=0.1812
+[p1] E1_MiniLM rollout m=3 cos=0.4757 m=5 cos=0.6371
+[p1] E1_MiniLM retrieval R@1=0.3976 R@5=0.7349 mean_rank=5.65 (chance R@5=0.0602)
+[p1] E1_MiniLM shuffled-target control: normal=0.4283 shuffled=0.2316 diff=0.1967 (perm_seed=42)
+[p1] E1_MiniLM bootstrap probe_cosine 95% CI = [0.3978, 0.4601]
+[p1] E1_MiniLM bootstrap probe - lexical_tfidf margin 95% CI = [0.0434, 0.0910]
+
+=== E2_BGE (BAAI/bge-base-en-v1.5, prefix='') ===
+[p1] E2_BGE: encoded 549 continuations, shape=(549, 768)
+[p1] E2_BGE layer 4: alpha=1000.0 val_cos=0.6653 test_cos=0.6697
+[p1] E2_BGE layer 8: alpha=1000.0 val_cos=0.6656 test_cos=0.6724
+[p1] E2_BGE layer 12: alpha=1000.0 val_cos=0.6726 test_cos=0.6801
+[p1] E2_BGE layer 20: alpha=10000.0 val_cos=0.6942 test_cos=0.7034
+[p1] E2_BGE best layer by val cosine: 20 (test_cos=0.7034)
+[p1] E2_BGE mean_cos=0.6364 random_cos=0.4080 lexical_cos=0.6624
+[p1] E2_BGE best logit-lens variant: topk_concat_k10 cos=0.5135
+[p1] E2_BGE rollout m=3 cos=0.6818 m=5 cos=0.7699
+[p1] E2_BGE retrieval R@1=0.2048 R@5=0.6506 mean_rank=11.34 (chance R@5=0.0602)
+[p1] E2_BGE shuffled-target control: normal=0.7034 shuffled=0.6363 diff=0.0671 (perm_seed=42)
+[p1] E2_BGE bootstrap probe_cosine 95% CI = [0.6881, 0.7186]
+[p1] E2_BGE bootstrap probe - lexical_tfidf margin 95% CI = [0.0336, 0.0483]
+
+=== E3_E5 (intfloat/e5-base-v2, prefix='passage: ') ===
+[p1] E3_E5: encoded 549 continuations, shape=(549, 768)
+[p1] E3_E5 layer 4: alpha=1000.0 val_cos=0.8424 test_cos=0.8437
+[p1] E3_E5 layer 8: alpha=1000.0 val_cos=0.8430 test_cos=0.8452
+[p1] E3_E5 layer 12: alpha=1000.0 val_cos=0.8455 test_cos=0.8483
+[p1] E3_E5 layer 20: alpha=10000.0 val_cos=0.8537 test_cos=0.8574
+[p1] E3_E5 best layer by val cosine: 20 (test_cos=0.8574)
+[p1] E3_E5 mean_cos=0.8283 random_cos=0.6888 lexical_cos=0.8455
+[p1] E3_E5 best logit-lens variant: topk_weighted_k10 cos=0.7512
+[p1] E3_E5 rollout m=3 cos=0.8209 m=5 cos=0.8669
+[p1] E3_E5 retrieval R@1=0.3012 R@5=0.6145 mean_rank=9.18 (chance R@5=0.0602)
+[p1] E3_E5 shuffled-target control: normal=0.8574 shuffled=0.8282 diff=0.0292 (perm_seed=42)
+[p1] E3_E5 bootstrap probe_cosine 95% CI = [0.8513, 0.8634]
+[p1] E3_E5 bootstrap probe - lexical_tfidf margin 95% CI = [0.0079, 0.0160]

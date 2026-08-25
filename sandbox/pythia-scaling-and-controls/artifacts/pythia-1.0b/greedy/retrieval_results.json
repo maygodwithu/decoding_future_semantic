@@ -1,0 +1,23 @@
+{
+  "best_layer": 13,
+  "n_test": 83,
+  "probe": {
+    "recall_at_1": 0.3493975903614458,
+    "recall_at_5": 0.6867469879518072,
+    "mean_rank": 8.204819277108435,
+    "n_query": 83
+  },
+  "mean_embedding_baseline": {
+    "recall_at_1": 0.012048192771084338,
+    "recall_at_5": 0.060240963855421686,
+    "mean_rank": 42.0,
+    "n_query": 83
+  },
+  "random_baseline": {
+    "recall_at_1": 0.0,
+    "recall_at_5": 0.03614457831325301,
+    "mean_rank": 42.096385542168676,
+    "n_query": 83
+  },
+  "chance_recall_at_5": 0.060240963855421686
+}

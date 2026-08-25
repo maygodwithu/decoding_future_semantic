@@ -1,0 +1,13 @@
+{
+  "deltas_by_horizon": {
+    "16": -0.49916940623678774,
+    "48": -0.4407984371100883,
+    "96": -0.37362773046580344
+  },
+  "crossover_exists": false,
+  "crossover_horizon": null,
+  "any_horizon_with_positive_delta": false,
+  "gap_narrowed_from_shortest_to_longest": true,
+  "shortest_horizon": 16,
+  "longest_horizon": 96
+}

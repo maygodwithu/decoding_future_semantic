@@ -1,0 +1,76 @@
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6892719445493753e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.5513976709135022e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.6109536754859164e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.5603777825390353e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.793566711289941e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.5752464221918672e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.3631232254063264e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0659595872652972e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1893664719764274e-07.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6892719445493753e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.5513976709135022e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.6109538975305213e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.5603779601747192e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.793566711289941e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.5752464221918672e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.3631232254063264e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0659595872652972e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1893664719764274e-07.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6892719445493753e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.5513971380064504e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.6109536754859164e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.5603777825390353e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.793566489245336e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.5752462445561832e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.3631232254063264e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.0659595872652972e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-horizon-crossover-analysis/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1893664719764274e-07.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+[probe H=16] layer 4: alpha=1000.0 train_cos=0.7091 val_cos=0.3240 test_cos=0.3431
+[probe H=16] layer 8: alpha=1000.0 train_cos=0.7805 val_cos=0.3322 test_cos=0.3471
+[probe H=16] layer 12: alpha=1000.0 train_cos=0.8059 val_cos=0.3508 test_cos=0.3746
+[probe H=16] layer 20: alpha=10000.0 train_cos=0.7679 val_cos=0.4184 test_cos=0.4390
+[probe H=16] best layer by val cosine: 20 test_cos=0.4390
+[probe H=48] layer 4: alpha=1000.0 train_cos=0.7098 val_cos=0.3168 test_cos=0.3230
+[probe H=48] layer 8: alpha=1000.0 train_cos=0.7806 val_cos=0.3286 test_cos=0.3333
+[probe H=48] layer 12: alpha=1000.0 train_cos=0.8055 val_cos=0.3477 test_cos=0.3585
+[probe H=48] layer 20: alpha=10000.0 train_cos=0.7691 val_cos=0.4111 test_cos=0.4191
+[probe H=48] best layer by val cosine: 20 test_cos=0.4191
+[probe H=96] layer 4: alpha=1000.0 train_cos=0.7046 val_cos=0.3024 test_cos=0.3131
+[probe H=96] layer 8: alpha=1000.0 train_cos=0.7757 val_cos=0.3139 test_cos=0.3245
+[probe H=96] layer 12: alpha=1000.0 train_cos=0.8004 val_cos=0.3317 test_cos=0.3470
+[probe H=96] layer 20: alpha=10000.0 train_cos=0.7634 val_cos=0.3940 test_cos=0.4061
+[probe H=96] best layer by val cosine: 20 test_cos=0.4061
+[probe] done

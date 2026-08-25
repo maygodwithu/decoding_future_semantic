@@ -1,0 +1,118 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4468.39it/s]
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 3616.15it/s]
+[run_layer_sweep] === layer(block)=0 (hs_index=1) mean_hidden_norm(val)=31.086 ===
+[run_layer_sweep]   k=0.05   alpha=    1.554 margin_mean=+0.00146 margin_std=0.01016
+[run_layer_sweep]   k=0.1    alpha=    3.109 margin_mean=+0.00566 margin_std=0.02614
+[run_layer_sweep]   k=0.2    alpha=    6.217 margin_mean=+0.01674 margin_std=0.04351
+[run_layer_sweep]   k=0.3    alpha=    9.326 margin_mean=+0.01672 margin_std=0.04293
+[run_layer_sweep]   k=0.4    alpha=   12.434 margin_mean=+0.01769 margin_std=0.05519
+[run_layer_sweep]   k=0.6    alpha=   18.651 margin_mean=-0.00558 margin_std=0.06226
+[run_layer_sweep]   k=0.8    alpha=   24.869 margin_mean=-0.00213 margin_std=0.07048
+[run_layer_sweep]   k=1.0    alpha=   31.086 margin_mean=+0.02204 margin_std=0.07266
+[run_layer_sweep]   k=1.6    alpha=   49.737 margin_mean=-0.00199 margin_std=0.07337
+[run_layer_sweep]   k=2.4    alpha=   74.606 margin_mean=-0.00070 margin_std=0.06398
+[run_layer_sweep]   k=3.2    alpha=   99.474 margin_mean=-0.00616 margin_std=0.06980
+[run_layer_sweep]   k=4.8    alpha=  149.212 margin_mean=-0.01292 margin_std=0.06397
+[run_layer_sweep]   k=6.4    alpha=  198.949 margin_mean=-0.01785 margin_std=0.06260
+[run_layer_sweep]   k=8.0    alpha=  248.686 margin_mean=-0.01682 margin_std=0.06931
+[run_layer_sweep] layer(block)=0: selected_k=1.0 pilot_margin=+0.02204
+[run_layer_sweep] === layer(block)=3 (hs_index=4) mean_hidden_norm(val)=36.448 ===
+[run_layer_sweep]   k=0.05   alpha=    1.822 margin_mean=-0.00175 margin_std=0.01113
+[run_layer_sweep]   k=0.1    alpha=    3.645 margin_mean=-0.00160 margin_std=0.01508
+[run_layer_sweep]   k=0.2    alpha=    7.290 margin_mean=-0.00200 margin_std=0.01737
+[run_layer_sweep]   k=0.3    alpha=   10.934 margin_mean=-0.00241 margin_std=0.02989
+[run_layer_sweep]   k=0.4    alpha=   14.579 margin_mean=-0.00646 margin_std=0.03151
+[run_layer_sweep]   k=0.6    alpha=   21.869 margin_mean=-0.00954 margin_std=0.05070
+[run_layer_sweep]   k=0.8    alpha=   29.158 margin_mean=+0.00237 margin_std=0.06199
+[run_layer_sweep]   k=1.0    alpha=   36.448 margin_mean=-0.00227 margin_std=0.07997
+[run_layer_sweep]   k=1.6    alpha=   58.316 margin_mean=-0.01233 margin_std=0.07499
+[run_layer_sweep]   k=2.4    alpha=   87.474 margin_mean=+0.01143 margin_std=0.08176
+[run_layer_sweep]   k=3.2    alpha=  116.632 margin_mean=-0.00290 margin_std=0.07105
+[run_layer_sweep]   k=4.8    alpha=  174.948 margin_mean=-0.00862 margin_std=0.06865
+[run_layer_sweep]   k=6.4    alpha=  233.264 margin_mean=-0.00667 margin_std=0.07326
+[run_layer_sweep]   k=8.0    alpha=  291.580 margin_mean=+0.00795 margin_std=0.07294
+[run_layer_sweep] layer(block)=3: selected_k=2.4 pilot_margin=+0.01143
+[run_layer_sweep] === layer(block)=5 (hs_index=6) mean_hidden_norm(val)=45.143 ===
+[run_layer_sweep]   k=0.05   alpha=    2.257 margin_mean=+0.00155 margin_std=0.01482
+[run_layer_sweep]   k=0.1    alpha=    4.514 margin_mean=+0.00249 margin_std=0.01660
+[run_layer_sweep]   k=0.2    alpha=    9.029 margin_mean=+0.00683 margin_std=0.02814
+[run_layer_sweep]   k=0.3    alpha=   13.543 margin_mean=+0.00843 margin_std=0.04839
+[run_layer_sweep]   k=0.4    alpha=   18.057 margin_mean=+0.00691 margin_std=0.04534
+[run_layer_sweep]   k=0.6    alpha=   27.086 margin_mean=+0.00018 margin_std=0.05296
+[run_layer_sweep]   k=0.8    alpha=   36.114 margin_mean=+0.00339 margin_std=0.04212
+[run_layer_sweep]   k=1.0    alpha=   45.143 margin_mean=+0.00249 margin_std=0.04712
+[run_layer_sweep]   k=1.6    alpha=   72.229 margin_mean=-0.00075 margin_std=0.08245
+[run_layer_sweep]   k=2.4    alpha=  108.343 margin_mean=+0.00916 margin_std=0.07519
+[run_layer_sweep]   k=3.2    alpha=  144.458 margin_mean=+0.01931 margin_std=0.08281
+[run_layer_sweep]   k=4.8    alpha=  216.687 margin_mean=+0.00139 margin_std=0.06115
+[run_layer_sweep]   k=6.4    alpha=  288.916 margin_mean=+0.01534 margin_std=0.06926
+[run_layer_sweep]   k=8.0    alpha=  361.145 margin_mean=+0.04264 margin_std=0.08543
+[run_layer_sweep] layer(block)=5: selected_k=8.0 pilot_margin=+0.04264
+[run_layer_sweep] === layer(block)=8 (hs_index=9) mean_hidden_norm(val)=50.196 ===
+[run_layer_sweep]   k=0.05   alpha=    2.510 margin_mean=-0.00027 margin_std=0.00873
+[run_layer_sweep]   k=0.1    alpha=    5.020 margin_mean=+0.00137 margin_std=0.02018
+[run_layer_sweep]   k=0.2    alpha=   10.039 margin_mean=-0.00015 margin_std=0.02884
+[run_layer_sweep]   k=0.3    alpha=   15.059 margin_mean=+0.00175 margin_std=0.03490
+[run_layer_sweep]   k=0.4    alpha=   20.078 margin_mean=-0.00119 margin_std=0.05645
+[run_layer_sweep]   k=0.6    alpha=   30.117 margin_mean=-0.00103 margin_std=0.05690
+[run_layer_sweep]   k=0.8    alpha=   40.157 margin_mean=+0.00647 margin_std=0.05425
+[run_layer_sweep]   k=1.0    alpha=   50.196 margin_mean=+0.01768 margin_std=0.05060
+[run_layer_sweep]   k=1.6    alpha=   80.313 margin_mean=+0.00179 margin_std=0.05652
+[run_layer_sweep]   k=2.4    alpha=  120.470 margin_mean=+0.00597 margin_std=0.05739
+[run_layer_sweep]   k=3.2    alpha=  160.626 margin_mean=+0.00537 margin_std=0.06412
+[run_layer_sweep]   k=4.8    alpha=  240.939 margin_mean=+0.00900 margin_std=0.07227
+[run_layer_sweep]   k=6.4    alpha=  321.252 margin_mean=+0.00566 margin_std=0.07842
+[run_layer_sweep]   k=8.0    alpha=  401.565 margin_mean=+0.02792 margin_std=0.09055
+[run_layer_sweep] layer(block)=8: selected_k=8.0 pilot_margin=+0.02792
+[run_layer_sweep] === layer(block)=10 (hs_index=11) mean_hidden_norm(val)=57.595 ===
+[run_layer_sweep]   k=0.05   alpha=    2.880 margin_mean=+0.00318 margin_std=0.01413
+[run_layer_sweep]   k=0.1    alpha=    5.759 margin_mean=+0.00709 margin_std=0.02017
+[run_layer_sweep]   k=0.2    alpha=   11.519 margin_mean=+0.00268 margin_std=0.03011
+[run_layer_sweep]   k=0.3    alpha=   17.278 margin_mean=+0.00201 margin_std=0.03515
+[run_layer_sweep]   k=0.4    alpha=   23.038 margin_mean=+0.00233 margin_std=0.05143
+[run_layer_sweep]   k=0.6    alpha=   34.557 margin_mean=+0.00358 margin_std=0.04254
+[run_layer_sweep]   k=0.8    alpha=   46.076 margin_mean=+0.00277 margin_std=0.03672
+[run_layer_sweep]   k=1.0    alpha=   57.595 margin_mean=+0.00094 margin_std=0.04350
+[run_layer_sweep]   k=1.6    alpha=   92.152 margin_mean=+0.01454 margin_std=0.04466
+[run_layer_sweep]   k=2.4    alpha=  138.228 margin_mean=+0.00124 margin_std=0.04247
+[run_layer_sweep]   k=3.2    alpha=  184.304 margin_mean=+0.00060 margin_std=0.05977
+[run_layer_sweep]   k=4.8    alpha=  276.456 margin_mean=-0.00012 margin_std=0.08292
+[run_layer_sweep]   k=6.4    alpha=  368.607 margin_mean=-0.00741 margin_std=0.09862
+[run_layer_sweep]   k=8.0    alpha=  460.759 margin_mean=-0.01603 margin_std=0.07738
+[run_layer_sweep] layer(block)=10: selected_k=1.6 pilot_margin=+0.01454
+[run_layer_sweep] === layer(block)=12 (hs_index=13) mean_hidden_norm(val)=91.555 ===
+[run_layer_sweep]   k=0.05   alpha=    4.578 margin_mean=+0.00255 margin_std=0.01457
+[run_layer_sweep]   k=0.1    alpha=    9.156 margin_mean=+0.00132 margin_std=0.02037
+[run_layer_sweep]   k=0.2    alpha=   18.311 margin_mean=+0.00895 margin_std=0.03546
+[run_layer_sweep]   k=0.3    alpha=   27.467 margin_mean=+0.00820 margin_std=0.04716
+[run_layer_sweep]   k=0.4    alpha=   36.622 margin_mean=+0.00266 margin_std=0.04787
+[run_layer_sweep]   k=0.6    alpha=   54.933 margin_mean=+0.00170 margin_std=0.04868
+[run_layer_sweep]   k=0.8    alpha=   73.244 margin_mean=+0.00023 margin_std=0.04551
+[run_layer_sweep]   k=1.0    alpha=   91.555 margin_mean=-0.00387 margin_std=0.03965
+[run_layer_sweep]   k=1.6    alpha=  146.489 margin_mean=-0.00234 margin_std=0.04827
+[run_layer_sweep]   k=2.4    alpha=  219.733 margin_mean=-0.00381 margin_std=0.07211
+[run_layer_sweep]   k=3.2    alpha=  292.978 margin_mean=-0.00063 margin_std=0.08225
+[run_layer_sweep]   k=4.8    alpha=  439.466 margin_mean=-0.00123 margin_std=0.09540
+[run_layer_sweep]   k=6.4    alpha=  585.955 margin_mean=-0.00396 margin_std=0.08633
+[run_layer_sweep]   k=8.0    alpha=  732.444 margin_mean=-0.00962 margin_std=0.09043
+[run_layer_sweep] layer(block)=12: selected_k=0.2 pilot_margin=+0.00895
+[run_layer_sweep] === layer(block)=15 (hs_index=16) mean_hidden_norm(val)=100.639 ===
+[run_layer_sweep]   k=0.05   alpha=    5.032 margin_mean=+0.00221 margin_std=0.01266
+[run_layer_sweep]   k=0.1    alpha=   10.064 margin_mean=+0.00425 margin_std=0.01739
+[run_layer_sweep]   k=0.2    alpha=   20.128 margin_mean=+0.00695 margin_std=0.03448
+[run_layer_sweep]   k=0.3    alpha=   30.192 margin_mean=+0.00976 margin_std=0.03763
+[run_layer_sweep]   k=0.4    alpha=   40.256 margin_mean=+0.00811 margin_std=0.03841
+[run_layer_sweep]   k=0.6    alpha=   60.383 margin_mean=+0.00983 margin_std=0.04090
+[run_layer_sweep]   k=0.8    alpha=   80.511 margin_mean=+0.00802 margin_std=0.04992
+[run_layer_sweep]   k=1.0    alpha=  100.639 margin_mean=+0.01741 margin_std=0.05075
+[run_layer_sweep]   k=1.6    alpha=  161.022 margin_mean=+0.01524 margin_std=0.06110
+[run_layer_sweep]   k=2.4    alpha=  241.533 margin_mean=+0.01764 margin_std=0.07698
+[run_layer_sweep]   k=3.2    alpha=  322.045 margin_mean=+0.02341 margin_std=0.08504
+[run_layer_sweep]   k=4.8    alpha=  483.067 margin_mean=+0.01860 margin_std=0.09203
+[run_layer_sweep]   k=6.4    alpha=  644.089 margin_mean=+0.01007 margin_std=0.08442
+[run_layer_sweep]   k=8.0    alpha=  805.112 margin_mean=+0.01192 margin_std=0.08350
+[run_layer_sweep] layer(block)=15: selected_k=3.2 pilot_margin=+0.02341
+[run_layer_sweep] wrote /home/jkchoi/project/autopaper/sandbox/pythia-1b-layer-sweep/artifacts/pythia_1b_layer_sweep/k_sweep_results.csv (98 rows)
+[run_layer_sweep] wrote /home/jkchoi/project/autopaper/sandbox/pythia-1b-layer-sweep/artifacts/pythia_1b_layer_sweep/selected_alphas.csv (7 rows)
+[run_layer_sweep] k_sweep stage done

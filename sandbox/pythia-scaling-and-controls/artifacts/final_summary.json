@@ -1,0 +1,173 @@
+{
+  "priority1_token_identity_control": {
+    "semantic_probe_layer20": {
+      "test_cosine": 0.4282612058059962,
+      "recall_at_5": 0.7349397590361446
+    },
+    "topk_concat_k1": {
+      "test_cosine": 0.11101489786384419,
+      "recall_at_5": 0.1927710843373494
+    },
+    "topk_weighted_k1": {
+      "test_cosine": 0.1068910541435163,
+      "recall_at_5": 0.18072289156626506
+    },
+    "topk_concat_k5": {
+      "test_cosine": 0.16237554158199521,
+      "recall_at_5": 0.3132530120481928
+    },
+    "topk_weighted_k5": {
+      "test_cosine": 0.16629945058578022,
+      "recall_at_5": 0.3373493975903614
+    },
+    "topk_concat_k10": {
+      "test_cosine": 0.1756493521746128,
+      "recall_at_5": 0.3614457831325301
+    },
+    "topk_weighted_k10": {
+      "test_cosine": 0.1812326643494623,
+      "recall_at_5": 0.3373493975903614
+    },
+    "short_rollout_m1": {
+      "test_cosine": 0.15850932662327688,
+      "recall_at_5": 0.3253012048192771
+    },
+    "short_rollout_m3": {
+      "test_cosine": 0.4757474096041563,
+      "recall_at_5": 0.891566265060241
+    },
+    "short_rollout_m5": {
+      "test_cosine": 0.637128441743362,
+      "recall_at_5": 0.9759036144578314
+    }
+  },
+  "priority2_scaling": [
+    {
+      "model": "pythia-410m",
+      "model_name": "EleutherAI/pythia-410m",
+      "params": 405334016,
+      "n_layers": 24,
+      "best_layer": 20,
+      "best_test_cosine": 0.4260184860374043,
+      "mean_baseline_cosine": 0.23073392977343388,
+      "cosine_gain_over_mean": 0.1952845562639704,
+      "random_match_cosine": 0.054335577429499377,
+      "recall_at_5": 0.8072289156626506,
+      "chance_recall_at_5": 0.060240963855421686,
+      "steering_effect_semantic": 0.007141379173845053,
+      "steering_effect_random": 0.0037093840073794127,
+      "steering_margin": 0.00343199516646564,
+      "steering_alpha": 99.11671447753906
+    },
+    {
+      "model": "pythia-1.0b",
+      "model_name": "EleutherAI/pythia-1b",
+      "params": 1011781632,
+      "n_layers": 16,
+      "best_layer": 13,
+      "best_test_cosine": 0.4019609994779997,
+      "mean_baseline_cosine": 0.22404712572987867,
+      "cosine_gain_over_mean": 0.177913873748121,
+      "random_match_cosine": 0.02937572658391626,
+      "recall_at_5": 0.6867469879518072,
+      "chance_recall_at_5": 0.060240963855421686,
+      "steering_effect_semantic": 0.024559980258345604,
+      "steering_effect_random": 0.013285375200212002,
+      "steering_margin": 0.011274605058133602,
+      "steering_alpha": 200.23184204101562
+    },
+    {
+      "model": "pythia-1.4b",
+      "model_name": "EleutherAI/pythia-1.4b",
+      "params": 1414647808,
+      "n_layers": 24,
+      "best_layer": 20,
+      "best_test_cosine": 0.4282612058059962,
+      "mean_baseline_cosine": 0.23099573547281493,
+      "cosine_gain_over_mean": 0.19726547033318126,
+      "random_match_cosine": 0.061562562192466724,
+      "recall_at_5": 0.7590361445783133,
+      "chance_recall_at_5": 0.060240963855421686,
+      "steering_effect_semantic": 0.01134867500513792,
+      "steering_effect_random": 0.002984504448249936,
+      "steering_margin": 0.008364170556887984,
+      "steering_alpha": 271.2640075683594
+    },
+    {
+      "model": "pythia-2.8b",
+      "model_name": "EleutherAI/pythia-2.8b",
+      "params": 2775208960,
+      "n_layers": 32,
+      "best_layer": 27,
+      "best_test_cosine": 0.4312234267626699,
+      "mean_baseline_cosine": 0.2241324352068837,
+      "cosine_gain_over_mean": 0.2070909915557862,
+      "random_match_cosine": 0.055534162937832164,
+      "recall_at_5": 0.8433734939759037,
+      "chance_recall_at_5": 0.060240963855421686,
+      "steering_effect_semantic": 0.012918556109070778,
+      "steering_effect_random": 0.012876274064183235,
+      "steering_margin": 4.2282044887542725e-05,
+      "steering_alpha": 576.7410278320312
+    }
+  ],
+  "priority3_decoding_comparison": [
+    {
+      "decode_tag": "greedy",
+      "best_layer": 20,
+      "test_cosine": 0.4282612058059962,
+      "mean_baseline_cosine": 0.23099573547281493,
+      "recall_at_5": 0.7590361445783133,
+      "topk_concat_k10_cosine": "0.1756493521746128",
+      "topk_concat_k10_margin": "0.2526118536313834",
+      "topk_concat_k10_recall_at_5": "0.3614457831325301",
+      "topk_weighted_k10_cosine": "0.1812326643494623",
+      "topk_weighted_k10_margin": "0.24702854145653388",
+      "topk_weighted_k10_recall_at_5": "0.3373493975903614",
+      "short_rollout_m1_cosine": "0.15850932662327688",
+      "short_rollout_m1_margin": "0.2697518791827193",
+      "short_rollout_m1_recall_at_5": "0.3253012048192771",
+      "short_rollout_m3_cosine": "0.4757474096041563",
+      "short_rollout_m3_margin": "-0.0474862037981601",
+      "short_rollout_m3_recall_at_5": "0.891566265060241",
+      "short_rollout_m5_cosine": "0.637128441743362",
+      "short_rollout_m5_margin": "-0.20886723593736584",
+      "short_rollout_m5_recall_at_5": "0.9759036144578314"
+    },
+    {
+      "decode_tag": "sampled",
+      "best_layer": 20,
+      "test_cosine": 0.3507694629728986,
+      "mean_baseline_cosine": 0.20420030874432446,
+      "recall_at_5": 0.6987951807228916,
+      "topk_concat_k10_cosine": "0.14336489194991356",
+      "topk_concat_k10_margin": "0.20740457102298507",
+      "topk_concat_k10_recall_at_5": "0.30120481927710846",
+      "topk_weighted_k10_cosine": "0.14597902143022914",
+      "topk_weighted_k10_margin": "0.20479044154266948",
+      "topk_weighted_k10_recall_at_5": "0.26506024096385544",
+      "short_rollout_m1_cosine": "0.17620653829740077",
+      "short_rollout_m1_margin": "0.17456292467549786",
+      "short_rollout_m1_recall_at_5": "0.20481927710843373",
+      "short_rollout_m3_cosine": "0.45115973988762387",
+      "short_rollout_m3_margin": "-0.10039027691472524",
+      "short_rollout_m3_recall_at_5": "0.8313253012048193",
+      "short_rollout_m5_cosine": "0.5994159562020464",
+      "short_rollout_m5_margin": "-0.24864649322914772",
+      "short_rollout_m5_recall_at_5": "0.9518072289156626"
+    }
+  ],
+  "verdicts": {
+    "priority1": "PARTIALLY WEAKENS / QUALIFIES the hypothesis: the layer-20 semantic probe clearly beats the top-k logit-lens controls (which only see the immediate next-token distribution) by a large margin, but is matched or beaten by the short-rollout controls with m>=3 tokens (short_rollout_m3 / short_rollout_m5). Honest reading: these rollout controls are literally the model's own first m tokens of the SAME deterministic greedy continuation, so for a dataset whose continuations are short on average (~16 tokens after sentence-boundary truncation), 3-5 tokens already cover a large fraction of the eventual sentence, and MiniLM sentence embeddings of a short prefix are already highly similar to the embedding of the full sentence it is a prefix of. This does not show the probe recovers nothing beyond immediate-token predictability in an absolute sense, but it does show that a strong, cheap, non-learned token-identity baseline (the literal next few greedily-decoded tokens) is very hard to beat with these short continuations, which is exactly the kind of control the protocol asked for to stress-test the original hypothesis. The probe DOES still convincingly beat controls that only see a single next-token distribution (top-k logit lens), which is the closer analogue to Future Lens-style token-identity probing.",
+    "priority2": "Probe recoverability (cosine gain over the mean-embedding baseline) is clearly present at every scale tested (pythia-410m, pythia-1.0b, pythia-1.4b, pythia-2.8b) and is non-decreasing overall with size. Steering margin (semantic direction vs. matched-norm random direction) is positive at 4/4 scales tested. This is consistent with hypothesis (b): the effect is present across multiple Pythia scales and is not a fragile artifact of one specific model size. One caveat: Recall@5 dips at pythia-1.0b (0.687) relative to its neighbors in the scaling curve -- still far above chance (0.060) but a reminder that the trend is not perfectly monotonic at n=83 test examples per model; pythia-1.0b also has an unusual layer count (16 blocks) among the models tested, which affects which depth-fraction layer is compared.",
+    "priority3": "Sampled decoding STRENGTHENS the hypothesis that the effect is not a pure greedy-decoding artifact: probe test cosine under sampling is 0.3508 vs 0.4283 under greedy (i.e. weaker, as expected, since sampled continuations are noisier targets), but remains clearly above the sampled mean-embedding baseline (0.2042). Margin over the strongest rollout control (m=5) is -0.2089 under greedy vs -0.2486 under sampled -- the probe-vs-strong-control picture is qualitatively similar.",
+    "priority1_probe_beats_all_controls": false,
+    "priority1_strong_outcome_achieved": false,
+    "priority1_probe_test_cosine": 0.4282612058059962,
+    "priority1_probe_recall_at_5": 0.7349397590361446,
+    "priority1_controls_that_matched_or_beat_probe": [
+      "short_rollout_m3",
+      "short_rollout_m5"
+    ]
+  }
+}

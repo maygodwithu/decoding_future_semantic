@@ -1,0 +1,154 @@
+[norm_relative_scaling] pilot pool (val) = 83 prompts; test pool = 83 prompts; disjoint OK
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5664.11it/s]
+[norm_relative_scaling] === pythia-410m (EleutherAI/pythia-410m) ===
+[norm_relative_scaling] mean_hidden_norm=48.077 std=4.963 median=49.352 n=83; old_raw_alpha=99.117 -> old_implied_k=2.06163
+[norm_relative_scaling] eligible pilot=40 test=60
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 7033.83it/s]
+[norm_relative_scaling]   pilot k=0.005  alpha=   0.240 sem_effect=-0.00151 rand_effect=-0.01004 margin=+0.00853
+[norm_relative_scaling]   pilot k=0.01   alpha=   0.481 sem_effect=-0.00139 rand_effect=-0.00937 margin=+0.00798
+[norm_relative_scaling]   pilot k=0.02   alpha=   0.962 sem_effect=-0.00598 rand_effect=-0.00902 margin=+0.00304
+[norm_relative_scaling]   pilot k=0.04   alpha=   1.923 sem_effect=-0.00889 rand_effect=-0.00887 margin=-0.00002
+[norm_relative_scaling]   pilot k=0.08   alpha=   3.846 sem_effect=-0.00583 rand_effect=-0.00180 margin=-0.00403
+[norm_relative_scaling]   pilot k=0.16   alpha=   7.692 sem_effect=-0.01379 rand_effect=-0.00606 margin=-0.00773
+[norm_relative_scaling] best_k(pilot)=0.005 (pilot margin=+0.00853)
+[norm_relative_scaling] TEST new(k=0.005, alpha=0.240) margin=-0.00124 | old_cached margin=+0.00343 | old_fresh_rerun margin=+0.00479
+[norm_relative_scaling] cleaned HF cache for EleutherAI/pythia-410m
+[norm_relative_scaling] === pythia-410m done in 25.6s ===
+[norm_relative_scaling] === pythia-1.0b (EleutherAI/pythia-1b) ===
+[norm_relative_scaling] mean_hidden_norm=91.555 std=9.189 median=93.273 n=83; old_raw_alpha=200.232 -> old_implied_k=2.18702
+[norm_relative_scaling] eligible pilot=40 test=60
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 5731.52it/s]
+[norm_relative_scaling]   pilot k=0.005  alpha=   0.458 sem_effect=+0.00017 rand_effect=+0.00182 margin=-0.00165
+[norm_relative_scaling]   pilot k=0.01   alpha=   0.916 sem_effect=+0.00002 rand_effect=-0.00064 margin=+0.00066
+[norm_relative_scaling]   pilot k=0.02   alpha=   1.831 sem_effect=-0.00062 rand_effect=+0.00106 margin=-0.00168
+[norm_relative_scaling]   pilot k=0.04   alpha=   3.662 sem_effect=-0.00045 rand_effect=-0.00158 margin=+0.00113
+[norm_relative_scaling]   pilot k=0.08   alpha=   7.324 sem_effect=+0.00031 rand_effect=-0.00135 margin=+0.00166
+[norm_relative_scaling]   pilot k=0.16   alpha=  14.649 sem_effect=-0.00001 rand_effect=-0.00322 margin=+0.00321
+[norm_relative_scaling] best_k(pilot)=0.16 (pilot margin=+0.00321)
+[norm_relative_scaling] TEST new(k=0.16, alpha=14.649) margin=-0.00122 | old_cached margin=+0.01127 | old_fresh_rerun margin=+0.01167
+[norm_relative_scaling] cleaned HF cache for EleutherAI/pythia-1b
+[norm_relative_scaling] === pythia-1.0b done in 33.2s ===
+[norm_relative_scaling] === pythia-1.4b (EleutherAI/pythia-1.4b) ===
+[norm_relative_scaling] mean_hidden_norm=173.205 std=20.615 median=177.106 n=83; old_raw_alpha=271.264 -> old_implied_k=1.56615
+[norm_relative_scaling] eligible pilot=40 test=60
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 3276.00it/s]
+[norm_relative_scaling]   pilot k=0.005  alpha=   0.866 sem_effect=+0.00402 rand_effect=+0.00063 margin=+0.00339
+[norm_relative_scaling]   pilot k=0.01   alpha=   1.732 sem_effect=+0.00248 rand_effect=+0.00100 margin=+0.00148
+[norm_relative_scaling]   pilot k=0.02   alpha=   3.464 sem_effect=+0.00435 rand_effect=+0.00182 margin=+0.00253
+[norm_relative_scaling]   pilot k=0.04   alpha=   6.928 sem_effect=+0.00409 rand_effect=-0.00260 margin=+0.00669
+[norm_relative_scaling]   pilot k=0.08   alpha=  13.856 sem_effect=+0.00081 rand_effect=-0.00290 margin=+0.00372
+[norm_relative_scaling]   pilot k=0.16   alpha=  27.713 sem_effect=+0.00404 rand_effect=-0.00042 margin=+0.00447
+[norm_relative_scaling] best_k(pilot)=0.04 (pilot margin=+0.00669)
+[norm_relative_scaling] TEST new(k=0.04, alpha=6.928) margin=+0.00055 | old_cached margin=+0.00836 | old_fresh_rerun margin=+0.00980
+[norm_relative_scaling] === pythia-1.4b done in 11.1s ===
+[norm_relative_scaling] === pythia-2.8b (EleutherAI/pythia-2.8b) ===
+[norm_relative_scaling] mean_hidden_norm=272.339 std=101.815 median=271.879 n=83; old_raw_alpha=576.741 -> old_implied_k=2.11773
+[norm_relative_scaling] eligible pilot=40 test=60
+Loading weights:   0%|          | 0/388 [00:00<?, ?it/s]Loading weights: 100%|██████████| 388/388 [00:00<00:00, 5054.45it/s]
+[norm_relative_scaling]   pilot k=0.005  alpha=   1.362 sem_effect=+0.00000 rand_effect=-0.00235 margin=+0.00235
+[norm_relative_scaling]   pilot k=0.01   alpha=   2.723 sem_effect=+0.00084 rand_effect=-0.00235 margin=+0.00319
+[norm_relative_scaling]   pilot k=0.02   alpha=   5.447 sem_effect=+0.00131 rand_effect=+0.00000 margin=+0.00131
+[norm_relative_scaling]   pilot k=0.04   alpha=  10.894 sem_effect=+0.00077 rand_effect=-0.00261 margin=+0.00337
+[norm_relative_scaling]   pilot k=0.08   alpha=  21.787 sem_effect=-0.00380 rand_effect=-0.00068 margin=-0.00313
+[norm_relative_scaling]   pilot k=0.16   alpha=  43.574 sem_effect=-0.00555 rand_effect=-0.00822 margin=+0.00266
+[norm_relative_scaling] best_k(pilot)=0.04 (pilot margin=+0.00337)
+[norm_relative_scaling] TEST new(k=0.04, alpha=10.894) margin=+0.00035 | old_cached margin=+0.00004 | old_fresh_rerun margin=+0.00312
+[norm_relative_scaling] cleaned HF cache for EleutherAI/pythia-2.8b
+[norm_relative_scaling] === pythia-2.8b done in 74.0s ===
+[norm_relative_scaling] wrote /home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/artifacts/norm_stats.csv (4 rows)
+[norm_relative_scaling] wrote /home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/artifacts/pilot_k_sweep.csv (24 rows)
+[norm_relative_scaling] wrote /home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/artifacts/norm_relative_scaling_summary.csv (4 rows)
+[norm_relative_scaling] wrote /home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/artifacts/pilot_margin_vs_k.png
+[norm_relative_scaling] wrote /home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/artifacts/norm_relative_scaling_report.md
+[norm_relative_scaling] ALL DONE
+[
+  {
+    "model": "pythia-410m",
+    "old_raw_alpha": 99.11671447753906,
+    "mean_hidden_norm": 48.07675552368164,
+    "old_implied_k": 2.061634846151716,
+    "best_k_pilot": 0.005,
+    "new_raw_alpha": 0.2403837776184082,
+    "old_semantic_score": 0.007141379173845053,
+    "old_random_score": 0.0037093840073794127,
+    "old_margin": 0.00343199516646564,
+    "new_semantic_score": -0.00014004869444761425,
+    "new_random_score": 0.001097324420697987,
+    "new_margin": -0.0012373731151456013,
+    "delta_margin": -0.004669368281611241,
+    "pilot_num_prompts": 40,
+    "test_num_prompts": 60,
+    "old_semantic_score_fresh_rerun": 0.005309425760060549,
+    "old_random_score_fresh_rerun": 0.0005178295541554689,
+    "old_margin_fresh_rerun": 0.00479159620590508,
+    "std_hidden_norm": 4.963259696960449,
+    "median_hidden_norm": 49.35204315185547
+  },
+  {
+    "model": "pythia-1.0b",
+    "old_raw_alpha": 200.23184204101562,
+    "mean_hidden_norm": 91.55453491210938,
+    "old_implied_k": 2.187022655221114,
+    "best_k_pilot": 0.16,
+    "new_raw_alpha": 14.6487255859375,
+    "old_semantic_score": 0.024559980258345604,
+    "old_random_score": 0.013285375200212002,
+    "old_margin": 0.011274605058133602,
+    "new_semantic_score": 0.00020391381985973567,
+    "new_random_score": 0.0014233433175832033,
+    "new_margin": -0.0012194294977234676,
+    "delta_margin": -0.01249403455585707,
+    "pilot_num_prompts": 40,
+    "test_num_prompts": 60,
+    "old_semantic_score_fresh_rerun": 0.020124657079577446,
+    "old_random_score_fresh_rerun": 0.008449961431324482,
+    "old_margin_fresh_rerun": 0.011674695648252964,
+    "std_hidden_norm": 9.189315795898438,
+    "median_hidden_norm": 93.27313232421875
+  },
+  {
+    "model": "pythia-1.4b",
+    "old_raw_alpha": 271.2640075683594,
+    "mean_hidden_norm": 173.2047882080078,
+    "old_implied_k": 1.56614612318101,
+    "best_k_pilot": 0.04,
+    "new_raw_alpha": 6.928191528320313,
+    "old_semantic_score": 0.01134867500513792,
+    "old_random_score": 0.002984504448249936,
+    "old_margin": 0.008364170556887984,
+    "new_semantic_score": -0.0015059488359838724,
+    "new_random_score": -0.0020596920512616634,
+    "new_margin": 0.000553743215277791,
+    "delta_margin": -0.007810427341610193,
+    "pilot_num_prompts": 40,
+    "test_num_prompts": 60,
+    "old_semantic_score_fresh_rerun": 0.008580249734222889,
+    "old_random_score_fresh_rerun": -0.001222694292664528,
+    "old_margin_fresh_rerun": 0.009802944026887417,
+    "std_hidden_norm": 20.61464500427246,
+    "median_hidden_norm": 177.10614013671875
+  },
+  {
+    "model": "pythia-2.8b",
+    "old_raw_alpha": 576.7410278320312,
+    "mean_hidden_norm": 272.3387145996094,
+    "old_implied_k": 2.117734265875317,
+    "best_k_pilot": 0.04,
+    "new_raw_alpha": 10.893548583984375,
+    "old_semantic_score": 0.012918556109070778,
+    "old_random_score": 0.012876274064183235,
+    "old_margin": 4.2282044887542725e-05,
+    "new_semantic_score": 0.0004288570780772716,
+    "new_random_score": 7.528022979386151e-05,
+    "new_margin": 0.00035357684828341007,
+    "delta_margin": 0.00031129480339586735,
+    "pilot_num_prompts": 40,
+    "test_num_prompts": 60,
+    "old_semantic_score_fresh_rerun": 0.013433854095637798,
+    "old_random_score_fresh_rerun": 0.010312391445040703,
+    "old_margin_fresh_rerun": 0.0031214626505970955,
+    "std_hidden_norm": 101.81549072265625,
+    "median_hidden_norm": 271.879150390625
+  }
+]

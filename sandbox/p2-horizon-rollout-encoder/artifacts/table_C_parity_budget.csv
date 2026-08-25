@@ -1,0 +1,16 @@
+Encoder,H,Smallest tested m matching/beating probe
+MiniLM,16,5
+MiniLM,48,5
+MiniLM,96,10
+MiniLM,192,10
+MiniLM,256,10
+BGE,16,5
+BGE,48,10
+BGE,96,10
+BGE,192,10
+BGE,256,20
+E5,16,10
+E5,48,10
+E5,96,20
+E5,192,20
+E5,256,20

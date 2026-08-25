@@ -1,0 +1,26 @@
+{
+  "16": {
+    "mean_used_len": 16.0,
+    "median_used_len": 16.0,
+    "frac_shorter_than_H_due_to_eos_or_short_gen": 0.0,
+    "char_len_mean": 63.215,
+    "char_len_median": 63.0,
+    "n": 600
+  },
+  "48": {
+    "mean_used_len": 48.0,
+    "median_used_len": 48.0,
+    "frac_shorter_than_H_due_to_eos_or_short_gen": 0.0,
+    "char_len_mean": 191.47333333333333,
+    "char_len_median": 195.0,
+    "n": 600
+  },
+  "96": {
+    "mean_used_len": 95.69666666666667,
+    "median_used_len": 96.0,
+    "frac_shorter_than_H_due_to_eos_or_short_gen": 0.015,
+    "char_len_mean": 381.005,
+    "char_len_median": 389.0,
+    "n": 600
+  }
+}

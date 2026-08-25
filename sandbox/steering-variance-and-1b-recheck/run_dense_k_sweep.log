@@ -1,0 +1,22 @@
+[run_experiment] pythia-1.0b: layer=13 mean_hidden_norm(val)=91.5545
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5715.97it/s]
+[run_experiment] pythia-1.0b: eligible pilot(val) = 40 prompts (cap 40)
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 3306.23it/s]
+[run_experiment]   k=0.05   alpha=    4.578 sem=-0.00045 rand=-0.00158 margin=+0.00113
+[run_experiment]   k=0.1    alpha=    9.155 sem=+0.00031 rand=-0.00220 margin=+0.00251
+[run_experiment]   k=0.2    alpha=   18.311 sem=+0.00102 rand=-0.00860 margin=+0.00962
+[run_experiment]   k=0.3    alpha=   27.466 sem=+0.00099 rand=-0.00722 margin=+0.00820
+[run_experiment]   k=0.4    alpha=   36.622 sem=+0.00178 rand=-0.00223 margin=+0.00402
+[run_experiment]   k=0.6    alpha=   54.933 sem=+0.00515 rand=+0.00345 margin=+0.00170
+[run_experiment]   k=0.8    alpha=   73.244 sem=+0.00912 rand=+0.00602 margin=+0.00310
+[run_experiment]   k=1.0    alpha=   91.555 sem=+0.01039 rand=+0.01397 margin=-0.00358
+[run_experiment]   k=1.6    alpha=  146.487 sem=+0.00846 rand=+0.01079 margin=-0.00234
+[run_experiment]   k=2.4    alpha=  219.731 sem=+0.00565 rand=+0.00933 margin=-0.00368
+[run_experiment]   k=3.2    alpha=  292.975 sem=+0.00456 rand=+0.00495 margin=-0.00040
+[run_experiment]   k=4.8    alpha=  439.462 sem=+0.00178 rand=+0.00301 margin=-0.00123
+[run_experiment]   k=6.4    alpha=  585.949 sem=+0.00021 rand=+0.00488 margin=-0.00468
+[run_experiment]   k=8.0    alpha=  732.436 sem=-0.00208 rand=+0.00666 margin=-0.00874
+[run_experiment] cleaned HF cache for EleutherAI/pythia-1b
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/pythia_1b_dense_k_sweep.csv (14 rows)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/pythia_1b_dense_k_selection.json -> best_k_1b_dense=0.2 (margin=+0.00962)

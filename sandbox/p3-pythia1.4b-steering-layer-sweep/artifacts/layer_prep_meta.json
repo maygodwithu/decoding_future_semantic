@@ -1,0 +1,89 @@
+{
+  "layers_passive": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "layers_steer": [
+    1,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "passive_to_steer_map": {
+    "0": 1,
+    "4": 4,
+    "8": 8,
+    "12": 12,
+    "16": 16,
+    "20": 20,
+    "24": 24
+  },
+  "mean_hidden_norm": {
+    "0": 0.8884814977645874,
+    "4": 37.6500129699707,
+    "8": 48.307701110839844,
+    "12": 57.81708908081055,
+    "16": 93.36221313476562,
+    "20": 173.20823669433594,
+    "24": 108.88331604003906
+  },
+  "probe_diagnostics": [
+    {
+      "layer": 0,
+      "probe_val_cosine": 0.25911059975624084,
+      "probe_test_cosine": 0.2774888575077057,
+      "probe_best_alpha": 10,
+      "mean_hidden_norm_val": 0.8884814977645874
+    },
+    {
+      "layer": 4,
+      "probe_val_cosine": 0.3114483058452606,
+      "probe_test_cosine": 0.336347371339798,
+      "probe_best_alpha": 1000.0,
+      "mean_hidden_norm_val": 37.6500129699707
+    },
+    {
+      "layer": 8,
+      "probe_val_cosine": 0.32327643036842346,
+      "probe_test_cosine": 0.3412328362464905,
+      "probe_best_alpha": 1000.0,
+      "mean_hidden_norm_val": 48.307701110839844
+    },
+    {
+      "layer": 12,
+      "probe_val_cosine": 0.34319770336151123,
+      "probe_test_cosine": 0.3669538199901581,
+      "probe_best_alpha": 1000.0,
+      "mean_hidden_norm_val": 57.81708908081055
+    },
+    {
+      "layer": 16,
+      "probe_val_cosine": 0.37287256121635437,
+      "probe_test_cosine": 0.4066373109817505,
+      "probe_best_alpha": 1000.0,
+      "mean_hidden_norm_val": 93.36221313476562
+    },
+    {
+      "layer": 20,
+      "probe_val_cosine": 0.3996448218822479,
+      "probe_test_cosine": 0.42827942967414856,
+      "probe_best_alpha": 10000.0,
+      "mean_hidden_norm_val": 173.20823669433594
+    },
+    {
+      "layer": 24,
+      "probe_val_cosine": 0.3952431380748749,
+      "probe_test_cosine": 0.4219896197319031,
+      "probe_best_alpha": 10000.0,
+      "mean_hidden_norm_val": 108.88331604003906
+    }
+  ]
+}

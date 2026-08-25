@@ -1,0 +1,85 @@
+Reused pipeline reference for steering-variance-and-1b-recheck
+================================================================
+
+This run is a direct follow-up to the ACCEPTED norm-relative steering run in:
+  /home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/
+    (code: norm_relative_scaling.py; primary artifact:
+     artifacts/norm_relative_scaling_summary.csv; report:
+     report.md / artifacts/norm_relative_scaling_report.md)
+
+which itself reused the base pipeline from the earlier accepted scaling run in:
+  /home/jkchoi/project/autopaper/sandbox/pythia-scaling-and-controls/
+    (common.py, embed_continuations.py, steering_utils_generic.py,
+     steering_generic.py, artifacts/split.json, artifacts/usable_prompts.jsonl,
+     artifacts/scaling_summary.csv, artifacts/{tag}/greedy/{continuations.jsonl,
+     hidden_last_token.npz, best_probe_trainval_layer_L.npz})
+
+Nothing in the steering method, prompt source, metric definition, normalization
+rule, layer choice, or generation/eval settings is changed here. The only new
+code is (a) a denser k grid for pythia-1.0b, swept with the EXACT SAME pilot
+procedure as norm_relative_scaling.py, and (b) a seed argument that varies
+the *sampling* of which eligible test prompts are drawn from the fixed
+test-index pool, and the per-prompt random control direction, across 5 repeat
+evaluations per model.
+
+Exact reused config values (unchanged, taken from norm_relative_scaling.py /
+scaling_summary.csv):
+  - decoding: greedy, num_beams=1, MAX_NEW_TOKENS=24, sentence-cut truncation
+    (steering_generic.batched_generate / common.find_sentence_cut)
+  - injection: BatchedInjectionHook on output of gpt_neox.layers[layer_idx-1]
+    (== hidden_states[layer_idx]), delta added once to the last real token of
+    a left-padded prefill batch only
+  - injection layer per model (each model's own accepted best_layer_by_val):
+      pythia-410m = 20, pythia-1.0b = 13, pythia-1.4b = 20, pythia-2.8b = 27
+  - sentiment axis: POSITIVE_ANCHORS / NEGATIVE_ANCHORS and
+    v_sem = normalize(mean(embed(pos)) - mean(embed(neg))) from steering_generic.py
+  - direction construction: d_sem = normalize(W.T @ v_sem), W = trained probe
+    weights loaded from best_probe_trainval_layer_{L}.npz
+  - alpha rule (norm-relative, from norm_relative_scaling.py):
+      alpha(model) = k * mean_hidden_norm(model)
+      mean_hidden_norm(model) = mean L2 norm of the UNSTEERED last-prompt-token
+      hidden state at the intervention layer, measured on the `val` (pilot)
+      split ONLY (idx_val from artifacts/split.json), never on `test`.
+  - metric: steering_effect_X = mean(score(X_plus) - score(base));
+    margin = steering_effect_semantic - steering_effect_random;
+    score(text) = cos(emb(text), pos_mean_unit) - cos(emb(text), neg_mean_unit);
+    emb = sentence-transformers/all-MiniLM-L6-v2 (embed_continuations.embed_texts)
+  - random control direction: independent per-prompt unit-norm Gaussian,
+    base seed 200000 + prompt_id (norm_relative_scaling.build_rand_dirs);
+    in THIS run, for the multi-seed repeats only, the seed is perturbed to
+    200000 + 1_000_003*seed + prompt_id so the control direction also varies
+    per repeat (see step 2 note below). The dense k-sweep for 1.0b keeps the
+    ORIGINAL unperturbed formula (base seed 200000+prompt_id, no run-seed
+    offset) because it reuses the exact prior tuning procedure unchanged.
+  - eligibility filter: continuation_token_ids length >= MIN_CONT_TOKENS (8),
+    else fallback to >=5 words (steering_generic.MIN_CONT_TOKENS)
+  - split: same seed-42 train/val/test partition of the same 549 usable
+    prompts as both accepted runs (artifacts/split.json); val=83, test=83
+  - pilot/tuning sampling: RandomState(42).shuffle(eligible_val) then
+    take first n_pilot=40 -- UNCHANGED, used for both the original best_k
+    selection (410m/1.4b/2.8b, reused verbatim) and the new dense 1.0b sweep.
+  - test sampling (accepted run + this run's seed=42 "reference" condition):
+    RandomState(42).shuffle(eligible_test) then take first n_test=60.
+    For the NEW multi-seed repeats, RandomState(seed) replaces RandomState(42)
+    for this shuffle, seed in {101,202,303,404,505}, so each repeat draws a
+    freshly shuffled 60-of-~72-76 subset of the SAME fixed test index pool
+    (test pool identity/eligibility itself is not re-derived, only the
+    shuffle/cap draw is reseeded) -- this is the "newly sampled held-out test
+    subset" required by the protocol, while keeping the metric, anchors,
+    layer, embedder, and injection code byte-for-byte identical.
+
+Best-k values reused verbatim from the accepted norm-relative run
+(artifacts/norm_relative_scaling_summary.csv, column best_k_pilot), used for
+410m, 1.4b, 2.8b in the multi-seed evaluation (metadata was NOT missing):
+  pythia-410m = 6.4
+  pythia-1.4b = 6.4
+  pythia-2.8b = 3.2
+pythia-1.0b's best_k is instead RETUNED in this run on a denser grid (see
+pythia_1b_dense_k_selection.json) and that retuned value is used for all
+1.0b multi-seed repeats instead of the old sparse-grid best_k=0.4.
+
+Exact commands run for this cycle:
+  CUDA_VISIBLE_DEVICES=0 python run_experiment.py --stage dense_k_sweep
+  CUDA_VISIBLE_DEVICES=0 python run_experiment.py --stage multiseed --models pythia-1.0b,pythia-2.8b,pythia-410m,pythia-1.4b
+  python analyze_multiseed.py
+(see run.log for full stdout/stderr of both stages)

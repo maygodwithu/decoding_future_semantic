@@ -1,0 +1,23 @@
+{
+  "model_name": "EleutherAI/pythia-1.4b",
+  "model_tag": "pythia-1.4b",
+  "decode_tag": "sampled",
+  "decoding_params": {
+    "do_sample": true,
+    "temperature": 0.8,
+    "top_p": 0.95
+  },
+  "n_usable_prompts": 549,
+  "max_new_tokens": 24,
+  "seed": 42,
+  "n_layers": 24,
+  "hidden_dim": 2048,
+  "layers_extracted": [
+    4,
+    8,
+    12,
+    20
+  ],
+  "layer20_equivalent_depth_fraction": 0.8333333333333334,
+  "num_parameters": 1414647808
+}

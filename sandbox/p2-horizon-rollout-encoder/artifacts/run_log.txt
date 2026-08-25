@@ -1,0 +1,103 @@
+[p2] loaded 600 records; n at each horizon: H=16:600, H=48:600, H=96:591, H=192:581, H=256:577
+[p2] common subset (realized_len >= 256): n=577/600
+[p2] split on common subset: train=403 val=87 test=87 seed=42
+[p2] decoded 5 horizon-prefix text sets and 4 rollout-prefix text sets
+
+=== MiniLM (sentence-transformers/all-MiniLM-L6-v2, prefix='') ===
+[p2] MiniLM: encoded all horizon targets + rollout prefixes
+[p2] MiniLM H=16: best_layer=20 probe_cos=0.4504 (layer sweep: L4=0.3548, L8=0.3587, L12=0.3856, L20=0.4504)
+[p2] MiniLM H=16 m=3: rollout_cos=0.4059 delta(probe-rollout)=0.0446 95%CI=[-0.0028,0.0913] excl0=False
+[p2] MiniLM H=16 m=5: rollout_cos=0.5825 delta(probe-rollout)=-0.1321 95%CI=[-0.1806,-0.0843] excl0=True
+[p2] MiniLM H=16 m=10: rollout_cos=0.8350 delta(probe-rollout)=-0.3845 95%CI=[-0.4203,-0.3484] excl0=True
+[p2] MiniLM H=16 m=20: rollout_cos=0.9392 delta(probe-rollout)=-0.4887 95%CI=[-0.5197,-0.4577] excl0=True
+[p2] MiniLM H=16: rollout parity budget = 5, marginal gains = 3->5:0.08832, 5->10:0.05049, 10->20:0.01042
+[p2] MiniLM H=48: best_layer=20 probe_cos=0.4363 (layer sweep: L4=0.3379, L8=0.3479, L12=0.3684, L20=0.4363)
+[p2] MiniLM H=48 m=3: rollout_cos=0.3103 delta(probe-rollout)=0.1260 95%CI=[0.0813,0.1693] excl0=True
+[p2] MiniLM H=48 m=5: rollout_cos=0.4594 delta(probe-rollout)=-0.0231 95%CI=[-0.0743,0.0263] excl0=False
+[p2] MiniLM H=48 m=10: rollout_cos=0.6807 delta(probe-rollout)=-0.2444 95%CI=[-0.2853,-0.2038] excl0=True
+[p2] MiniLM H=48 m=20: rollout_cos=0.8659 delta(probe-rollout)=-0.4296 95%CI=[-0.4660,-0.3937] excl0=True
+[p2] MiniLM H=48: rollout parity budget = 5, marginal gains = 3->5:0.07456, 5->10:0.04426, 10->20:0.01852
+[p2] MiniLM H=96: best_layer=20 probe_cos=0.4164 (layer sweep: L4=0.3274, L8=0.3361, L12=0.3536, L20=0.4164)
+[p2] MiniLM H=96 m=3: rollout_cos=0.2732 delta(probe-rollout)=0.1433 95%CI=[0.1003,0.1854] excl0=True
+[p2] MiniLM H=96 m=5: rollout_cos=0.4044 delta(probe-rollout)=0.0120 95%CI=[-0.0384,0.0608] excl0=False
+[p2] MiniLM H=96 m=10: rollout_cos=0.5985 delta(probe-rollout)=-0.1820 95%CI=[-0.2251,-0.1402] excl0=True
+[p2] MiniLM H=96 m=20: rollout_cos=0.7818 delta(probe-rollout)=-0.3654 95%CI=[-0.4052,-0.3256] excl0=True
+[p2] MiniLM H=96: rollout parity budget = 10, marginal gains = 3->5:0.06562, 5->10:0.03881, 10->20:0.01834
+[p2] MiniLM H=192: best_layer=20 probe_cos=0.4280 (layer sweep: L4=0.3557, L8=0.3626, L12=0.3723, L20=0.4280)
+[p2] MiniLM H=192 m=3: rollout_cos=0.2436 delta(probe-rollout)=0.1844 95%CI=[0.1434,0.2235] excl0=True
+[p2] MiniLM H=192 m=5: rollout_cos=0.3524 delta(probe-rollout)=0.0756 95%CI=[0.0278,0.1210] excl0=True
+[p2] MiniLM H=192 m=10: rollout_cos=0.5233 delta(probe-rollout)=-0.0953 95%CI=[-0.1374,-0.0541] excl0=True
+[p2] MiniLM H=192 m=20: rollout_cos=0.6941 delta(probe-rollout)=-0.2661 95%CI=[-0.3060,-0.2265] excl0=True
+[p2] MiniLM H=192: rollout parity budget = 10, marginal gains = 3->5:0.05441, 5->10:0.03417, 10->20:0.01708
+[p2] MiniLM H=256: best_layer=20 probe_cos=0.4421 (layer sweep: L4=0.3753, L8=0.3816, L12=0.3894, L20=0.4421)
+[p2] MiniLM H=256 m=3: rollout_cos=0.2358 delta(probe-rollout)=0.2062 95%CI=[0.1661,0.2450] excl0=True
+[p2] MiniLM H=256 m=5: rollout_cos=0.3385 delta(probe-rollout)=0.1036 95%CI=[0.0566,0.1480] excl0=True
+[p2] MiniLM H=256 m=10: rollout_cos=0.4996 delta(probe-rollout)=-0.0576 95%CI=[-0.1003,-0.0159] excl0=True
+[p2] MiniLM H=256 m=20: rollout_cos=0.6649 delta(probe-rollout)=-0.2228 95%CI=[-0.2625,-0.1834] excl0=True
+[p2] MiniLM H=256: rollout parity budget = 10, marginal gains = 3->5:0.05134, 5->10:0.03222, 10->20:0.01652
+
+=== BGE (BAAI/bge-base-en-v1.5, prefix='') ===
+[p2] BGE: encoded all horizon targets + rollout prefixes
+[p2] BGE H=16: best_layer=20 probe_cos=0.6982 (layer sweep: L4=0.6658, L8=0.6688, L12=0.6761, L20=0.6982)
+[p2] BGE H=16 m=3: rollout_cos=0.6410 delta(probe-rollout)=0.0572 95%CI=[0.0339,0.0801] excl0=True
+[p2] BGE H=16 m=5: rollout_cos=0.7366 delta(probe-rollout)=-0.0383 95%CI=[-0.0609,-0.0155] excl0=True
+[p2] BGE H=16 m=10: rollout_cos=0.8885 delta(probe-rollout)=-0.1903 95%CI=[-0.2065,-0.1747] excl0=True
+[p2] BGE H=16 m=20: rollout_cos=0.9472 delta(probe-rollout)=-0.2490 95%CI=[-0.2633,-0.2351] excl0=True
+[p2] BGE H=16: rollout parity budget = 5, marginal gains = 3->5:0.04778, 5->10:0.03038, 10->20:0.00587
+[p2] BGE H=48: best_layer=20 probe_cos=0.7138 (layer sweep: L4=0.6797, L8=0.6842, L12=0.6912, L20=0.7138)
+[p2] BGE H=48 m=3: rollout_cos=0.6024 delta(probe-rollout)=0.1114 95%CI=[0.0927,0.1298] excl0=True
+[p2] BGE H=48 m=5: rollout_cos=0.6778 delta(probe-rollout)=0.0359 95%CI=[0.0158,0.0554] excl0=True
+[p2] BGE H=48 m=10: rollout_cos=0.7969 delta(probe-rollout)=-0.0831 95%CI=[-0.0990,-0.0671] excl0=True
+[p2] BGE H=48 m=20: rollout_cos=0.9023 delta(probe-rollout)=-0.1886 95%CI=[-0.2025,-0.1747] excl0=True
+[p2] BGE H=48: rollout parity budget = 10, marginal gains = 3->5:0.03774, 5->10:0.02381, 10->20:0.01054
+[p2] BGE H=96: best_layer=20 probe_cos=0.7243 (layer sweep: L4=0.6914, L8=0.6954, L12=0.7018, L20=0.7243)
+[p2] BGE H=96 m=3: rollout_cos=0.5916 delta(probe-rollout)=0.1326 95%CI=[0.1146,0.1504] excl0=True
+[p2] BGE H=96 m=5: rollout_cos=0.6599 delta(probe-rollout)=0.0643 95%CI=[0.0441,0.0838] excl0=True
+[p2] BGE H=96 m=10: rollout_cos=0.7639 delta(probe-rollout)=-0.0396 95%CI=[-0.0565,-0.0227] excl0=True
+[p2] BGE H=96 m=20: rollout_cos=0.8624 delta(probe-rollout)=-0.1381 95%CI=[-0.1527,-0.1239] excl0=True
+[p2] BGE H=96: rollout parity budget = 10, marginal gains = 3->5:0.03414, 5->10:0.02080, 10->20:0.00985
+[p2] BGE H=192: best_layer=20 probe_cos=0.7448 (layer sweep: L4=0.7144, L8=0.7177, L12=0.7234, L20=0.7448)
+[p2] BGE H=192 m=3: rollout_cos=0.5899 delta(probe-rollout)=0.1549 95%CI=[0.1363,0.1726] excl0=True
+[p2] BGE H=192 m=5: rollout_cos=0.6559 delta(probe-rollout)=0.0889 95%CI=[0.0683,0.1090] excl0=True
+[p2] BGE H=192 m=10: rollout_cos=0.7544 delta(probe-rollout)=-0.0096 95%CI=[-0.0280,0.0086] excl0=False
+[p2] BGE H=192 m=20: rollout_cos=0.8463 delta(probe-rollout)=-0.1015 95%CI=[-0.1171,-0.0857] excl0=True
+[p2] BGE H=192: rollout parity budget = 10, marginal gains = 3->5:0.03297, 5->10:0.01970, 10->20:0.00920
+[p2] BGE H=256: best_layer=20 probe_cos=0.7473 (layer sweep: L4=0.7176, L8=0.7209, L12=0.7265, L20=0.7473)
+[p2] BGE H=256 m=3: rollout_cos=0.5849 delta(probe-rollout)=0.1624 95%CI=[0.1438,0.1804] excl0=True
+[p2] BGE H=256 m=5: rollout_cos=0.6501 delta(probe-rollout)=0.0973 95%CI=[0.0763,0.1175] excl0=True
+[p2] BGE H=256 m=10: rollout_cos=0.7461 delta(probe-rollout)=0.0012 95%CI=[-0.0175,0.0197] excl0=False
+[p2] BGE H=256 m=20: rollout_cos=0.8369 delta(probe-rollout)=-0.0896 95%CI=[-0.1059,-0.0730] excl0=True
+[p2] BGE H=256: rollout parity budget = 20, marginal gains = 3->5:0.03258, 5->10:0.01920, 10->20:0.00909
+
+=== E5 (intfloat/e5-base-v2, prefix='passage: ') ===
+[p2] E5: encoded all horizon targets + rollout prefixes
+[p2] E5 H=16: best_layer=20 probe_cos=0.8641 (layer sweep: L4=0.8515, L8=0.8532, L12=0.8559, L20=0.8641)
+[p2] E5 H=16 m=3: rollout_cos=0.8126 delta(probe-rollout)=0.0515 95%CI=[0.0424,0.0604] excl0=True
+[p2] E5 H=16 m=5: rollout_cos=0.8554 delta(probe-rollout)=0.0087 95%CI=[-0.0008,0.0181] excl0=False
+[p2] E5 H=16 m=10: rollout_cos=0.9353 delta(probe-rollout)=-0.0712 95%CI=[-0.0788,-0.0638] excl0=True
+[p2] E5 H=16 m=20: rollout_cos=0.9690 delta(probe-rollout)=-0.1049 95%CI=[-0.1109,-0.0988] excl0=True
+[p2] E5 H=16: rollout parity budget = 10, marginal gains = 3->5:0.02139, 5->10:0.01597, 10->20:0.00337
+[p2] E5 H=48: best_layer=20 probe_cos=0.8656 (layer sweep: L4=0.8531, L8=0.8548, L12=0.8575, L20=0.8656)
+[p2] E5 H=48 m=3: rollout_cos=0.7832 delta(probe-rollout)=0.0824 95%CI=[0.0750,0.0897] excl0=True
+[p2] E5 H=48 m=5: rollout_cos=0.8136 delta(probe-rollout)=0.0520 95%CI=[0.0433,0.0604] excl0=True
+[p2] E5 H=48 m=10: rollout_cos=0.8687 delta(probe-rollout)=-0.0030 95%CI=[-0.0113,0.0051] excl0=False
+[p2] E5 H=48 m=20: rollout_cos=0.9357 delta(probe-rollout)=-0.0701 95%CI=[-0.0768,-0.0634] excl0=True
+[p2] E5 H=48: rollout parity budget = 10, marginal gains = 3->5:0.01520, 5->10:0.01101, 10->20:0.00670
+[p2] E5 H=96: best_layer=20 probe_cos=0.8616 (layer sweep: L4=0.8488, L8=0.8502, L12=0.8527, L20=0.8616)
+[p2] E5 H=96 m=3: rollout_cos=0.7728 delta(probe-rollout)=0.0888 95%CI=[0.0811,0.0962] excl0=True
+[p2] E5 H=96 m=5: rollout_cos=0.8005 delta(probe-rollout)=0.0612 95%CI=[0.0520,0.0700] excl0=True
+[p2] E5 H=96 m=10: rollout_cos=0.8498 delta(probe-rollout)=0.0119 95%CI=[0.0031,0.0207] excl0=True
+[p2] E5 H=96 m=20: rollout_cos=0.9131 delta(probe-rollout)=-0.0515 95%CI=[-0.0585,-0.0443] excl0=True
+[p2] E5 H=96: rollout parity budget = 20, marginal gains = 3->5:0.01383, 5->10:0.00986, 10->20:0.00633
+[p2] E5 H=192: best_layer=20 probe_cos=0.8650 (layer sweep: L4=0.8527, L8=0.8540, L12=0.8564, L20=0.8650)
+[p2] E5 H=192 m=3: rollout_cos=0.7732 delta(probe-rollout)=0.0918 95%CI=[0.0845,0.0988] excl0=True
+[p2] E5 H=192 m=5: rollout_cos=0.7997 delta(probe-rollout)=0.0653 95%CI=[0.0562,0.0743] excl0=True
+[p2] E5 H=192 m=10: rollout_cos=0.8439 delta(probe-rollout)=0.0211 95%CI=[0.0124,0.0298] excl0=True
+[p2] E5 H=192 m=20: rollout_cos=0.8999 delta(probe-rollout)=-0.0348 95%CI=[-0.0415,-0.0281] excl0=True
+[p2] E5 H=192: rollout parity budget = 20, marginal gains = 3->5:0.01326, 5->10:0.00884, 10->20:0.00559
+[p2] E5 H=256: best_layer=20 probe_cos=0.8675 (layer sweep: L4=0.8560, L8=0.8571, L12=0.8592, L20=0.8675)
+[p2] E5 H=256 m=3: rollout_cos=0.7735 delta(probe-rollout)=0.0941 95%CI=[0.0870,0.1009] excl0=True
+[p2] E5 H=256 m=5: rollout_cos=0.7983 delta(probe-rollout)=0.0692 95%CI=[0.0605,0.0779] excl0=True
+[p2] E5 H=256 m=10: rollout_cos=0.8396 delta(probe-rollout)=0.0279 95%CI=[0.0193,0.0365] excl0=True
+[p2] E5 H=256 m=20: rollout_cos=0.8938 delta(probe-rollout)=-0.0263 95%CI=[-0.0328,-0.0196] excl0=True
+[p2] E5 H=256: rollout parity budget = 20, marginal gains = 3->5:0.01242, 5->10:0.00826, 10->20:0.00542

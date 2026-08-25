@@ -1,0 +1,10 @@
+{
+  "model_name": "EleutherAI/pythia-1b",
+  "n_layers": 16,
+  "hidden_size": 2048,
+  "num_attention_heads": 8,
+  "architectures": [
+    "GPTNeoXForCausalLM"
+  ],
+  "note": "n_layers = cfg.num_hidden_layers (number of gpt_neox transformer blocks, 0-indexed 0..n_layers-1). hidden_size = cfg.hidden_size."
+}

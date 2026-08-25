@@ -1,0 +1,139 @@
+{
+  "passive_table": [
+    {
+      "layer": 0,
+      "probe_test_cosine": 0.2774888575077057
+    },
+    {
+      "layer": 4,
+      "probe_test_cosine": 0.336347371339798
+    },
+    {
+      "layer": 8,
+      "probe_test_cosine": 0.3412328362464905
+    },
+    {
+      "layer": 12,
+      "probe_test_cosine": 0.3669538199901581
+    },
+    {
+      "layer": 16,
+      "probe_test_cosine": 0.4066373109817505
+    },
+    {
+      "layer": 20,
+      "probe_test_cosine": 0.42827942967414856
+    },
+    {
+      "layer": 24,
+      "probe_test_cosine": 0.4219896197319031
+    }
+  ],
+  "steering_summary": [
+    {
+      "layer": 1,
+      "n_seeds": 5,
+      "mean_margin": 0.0009917205257806926,
+      "std_margin": 0.0024662846437464706,
+      "ci95_low": -0.002070576325682096,
+      "ci95_high": 0.004054017377243481,
+      "selected_k": 1.6,
+      "final_alpha": 1.42157039642334,
+      "ci_excludes_zero": false
+    },
+    {
+      "layer": 4,
+      "n_seeds": 5,
+      "mean_margin": -0.0010761121404357255,
+      "std_margin": 0.0025532130489952357,
+      "ci95_low": -0.004246344863117173,
+      "ci95_high": 0.002094120582245722,
+      "selected_k": 0.1,
+      "final_alpha": 3.7650012969970703,
+      "ci_excludes_zero": false
+    },
+    {
+      "layer": 8,
+      "n_seeds": 5,
+      "mean_margin": 0.0023279331973753868,
+      "std_margin": 0.006235944301340327,
+      "ci95_low": -0.005415014336402822,
+      "ci95_high": 0.010070880731153597,
+      "selected_k": 1.0,
+      "final_alpha": 48.307701110839844,
+      "ci_excludes_zero": false
+    },
+    {
+      "layer": 12,
+      "n_seeds": 5,
+      "mean_margin": 0.0016289747436530888,
+      "std_margin": 0.003961077107217547,
+      "ci95_low": -0.003289352094488051,
+      "ci95_high": 0.006547301581794228,
+      "selected_k": 0.2,
+      "final_alpha": 11.56341781616211,
+      "ci_excludes_zero": false
+    },
+    {
+      "layer": 16,
+      "n_seeds": 5,
+      "mean_margin": -0.007416514947544783,
+      "std_margin": 0.0035736528509462493,
+      "ci95_low": -0.011853791034642982,
+      "ci95_high": -0.0029792388604465833,
+      "selected_k": 1.0,
+      "final_alpha": 93.36221313476562,
+      "ci_excludes_zero": true
+    },
+    {
+      "layer": 20,
+      "n_seeds": 5,
+      "mean_margin": 0.04516951162368059,
+      "std_margin": 0.006874822699630238,
+      "ci95_low": 0.03663329178351571,
+      "ci95_high": 0.05370573146384547,
+      "selected_k": 8.0,
+      "final_alpha": 1385.6658935546875,
+      "ci_excludes_zero": true
+    },
+    {
+      "layer": 24,
+      "n_seeds": 5,
+      "mean_margin": 0.031235798494890332,
+      "std_margin": 0.009186570342962531,
+      "ci95_low": 0.01982916483306735,
+      "ci95_high": 0.04264243215671332,
+      "selected_k": 8.0,
+      "final_alpha": 871.0665283203125,
+      "ci_excludes_zero": true
+    }
+  ],
+  "layer0_to_1_substitution": "layer 0 has no injectable analogue (BatchedInjectionHook requires layer_idx>=1); steering sweep uses layer 1 in its place, passive table still reports true layer 0",
+  "passive_best_layer": 20,
+  "steering_best_layer": 20,
+  "reference_layer20_prior": {
+    "mean_margin": 0.0403575612232089,
+    "ci95_low": 0.03348164875060359,
+    "ci95_high": 0.04723347369581422,
+    "best_k": 6.4
+  },
+  "layer20_this_run": {
+    "layer": 20,
+    "n_seeds": 5,
+    "mean_margin": 0.04516951162368059,
+    "std_margin": 0.006874822699630238,
+    "ci95_low": 0.03663329178351571,
+    "ci95_high": 0.05370573146384547,
+    "selected_k": 8.0,
+    "final_alpha": 1385.6658935546875,
+    "ci_excludes_zero": true
+  },
+  "correlation": {
+    "pearson_r": 0.6151750028918214,
+    "pearson_p": 0.1414696475559292,
+    "spearman_rho": 0.5714285714285715,
+    "spearman_p": 0.18020198891152767,
+    "n_layers": 7
+  },
+  "paired_diff_best_vs_layer20": null
+}

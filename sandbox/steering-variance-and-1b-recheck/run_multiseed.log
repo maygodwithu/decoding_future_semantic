@@ -1,0 +1,61 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5990.78it/s]
+[run_experiment] === pythia-1.0b (EleutherAI/pythia-1b) === layer=13 mean_hidden_norm=91.555 best_k=0.2 alpha=18.311
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 3372.87it/s]
+[run_experiment] pythia-1.0b: model loaded in 28.2s
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (1 rows)
+[run_experiment]   seed=101 n=60 sem=-0.00126 rand=-0.00132 margin=+0.00007 (2.4s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (2 rows)
+[run_experiment]   seed=202 n=60 sem=-0.00248 rand=-0.00018 margin=-0.00230 (1.7s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (3 rows)
+[run_experiment]   seed=303 n=60 sem=+0.00068 rand=-0.00344 margin=+0.00411 (1.6s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (4 rows)
+[run_experiment]   seed=404 n=60 sem=-0.00033 rand=+0.00060 margin=-0.00093 (1.6s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (5 rows)
+[run_experiment]   seed=505 n=60 sem=-0.00077 rand=+0.00028 margin=-0.00105 (1.6s)
+[run_experiment] cleaned HF cache for EleutherAI/pythia-1b
+[run_experiment] === pythia-1.0b done ===
+[run_experiment] === pythia-2.8b (EleutherAI/pythia-2.8b) === layer=27 mean_hidden_norm=272.339 best_k=3.2 alpha=871.484
+Loading weights:   0%|          | 0/388 [00:00<?, ?it/s]Loading weights: 100%|██████████| 388/388 [00:00<00:00, 4945.65it/s]
+[run_experiment] pythia-2.8b: model loaded in 63.9s
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (6 rows)
+[run_experiment]   seed=101 n=60 sem=+0.01335 rand=+0.00375 margin=+0.00959 (2.8s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (7 rows)
+[run_experiment]   seed=202 n=60 sem=+0.01738 rand=+0.00877 margin=+0.00861 (2.8s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (8 rows)
+[run_experiment]   seed=303 n=60 sem=+0.02401 rand=+0.01083 margin=+0.01318 (2.8s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (9 rows)
+[run_experiment]   seed=404 n=60 sem=+0.01555 rand=+0.00988 margin=+0.00568 (2.7s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (10 rows)
+[run_experiment]   seed=505 n=60 sem=+0.01536 rand=+0.00903 margin=+0.00633 (2.7s)
+[run_experiment] cleaned HF cache for EleutherAI/pythia-2.8b
+[run_experiment] === pythia-2.8b done ===
+[run_experiment] === pythia-410m (EleutherAI/pythia-410m) === layer=20 mean_hidden_norm=48.077 best_k=6.4 alpha=307.691
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 6860.54it/s]
+[run_experiment] pythia-410m: model loaded in 14.8s
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (11 rows)
+[run_experiment]   seed=101 n=60 sem=+0.04830 rand=+0.00453 margin=+0.04378 (2.1s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (12 rows)
+[run_experiment]   seed=202 n=60 sem=+0.05453 rand=-0.01670 margin=+0.07124 (2.1s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (13 rows)
+[run_experiment]   seed=303 n=60 sem=+0.04609 rand=-0.01083 margin=+0.05692 (2.1s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (14 rows)
+[run_experiment]   seed=404 n=60 sem=+0.04768 rand=-0.00053 margin=+0.04822 (2.1s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (15 rows)
+[run_experiment]   seed=505 n=60 sem=+0.04943 rand=-0.01278 margin=+0.06221 (2.2s)
+[run_experiment] cleaned HF cache for EleutherAI/pythia-410m
+[run_experiment] === pythia-410m done ===
+[run_experiment] === pythia-1.4b (EleutherAI/pythia-1.4b) === layer=20 mean_hidden_norm=173.205 best_k=6.4 alpha=1108.511
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 4294.67it/s]
+[run_experiment] pythia-1.4b: model loaded in 2.8s
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (16 rows)
+[run_experiment]   seed=101 n=60 sem=+0.03883 rand=-0.00895 margin=+0.04778 (2.2s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (17 rows)
+[run_experiment]   seed=202 n=60 sem=+0.03552 rand=-0.00304 margin=+0.03856 (2.3s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (18 rows)
+[run_experiment]   seed=303 n=60 sem=+0.02686 rand=-0.01397 margin=+0.04083 (2.2s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (19 rows)
+[run_experiment]   seed=404 n=60 sem=+0.03470 rand=+0.00216 margin=+0.03254 (2.3s)
+[run_experiment] wrote /home/jkchoi/project/autopaper/sandbox/steering-variance-and-1b-recheck/artifacts/norm_relative_multiseed_raw.csv (20 rows)
+[run_experiment]   seed=505 n=60 sem=+0.03873 rand=-0.00335 margin=+0.04207 (2.2s)
+[run_experiment] === pythia-1.4b done ===

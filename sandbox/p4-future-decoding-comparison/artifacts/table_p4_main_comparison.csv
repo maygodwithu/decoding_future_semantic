@@ -1,0 +1,12 @@
+Method,Representation decoded,Extra AR steps,Semantic cosine (H=16)
+Mean embedding,--,0,0.2430
+Direct Logit Lens,next-token identity,0,0.1795
+Tuned Lens (layer 20),translated next-token identity,0,0.1442
+"Future-Lens-style, m=3",future token identities,0,0.2175
+"Future-Lens-style, m=5",future token identities,0,0.2292
+"Future-Lens-style, m=10",future token identities,0,0.2529
+Linear Semantic Probe,continuation semantics,0,0.4504
+MLP Semantic Probe (diagnostic),continuation semantics,0,0.2810
+Rollout-3,generated prefix,3,0.4059
+Rollout-5,generated prefix,5,0.5825
+Rollout-10,generated prefix,10,0.8350

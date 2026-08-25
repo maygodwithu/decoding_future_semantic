@@ -1,0 +1,14 @@
+{
+  "description": "Pilot sweep on 24 validation prompts to choose the steering magnitude alpha, using a single fixed random direction as a quick reference control (the full experiment instead uses a fresh random direction per prompt for a more robust control). alpha_mult multiplies the literal protocol suggestion alpha0 = 0.5 * pilot_aggregate_std = 33.908.",
+  "pilot_aggregate_std": 67.816,
+  "alpha0_fraction_0.5": 33.908,
+  "results": [
+    {"alpha_mult": 1,  "alpha": 33.9,  "sem_plus": -0.0038, "sem_minus": 0.0017,  "rand_plus": 0.0128, "rand_minus": 0.0065},
+    {"alpha_mult": 3,  "alpha": 101.7, "sem_plus": 0.0081,  "sem_minus": 0.0048,  "rand_plus": 0.0151, "rand_minus": -0.0259},
+    {"alpha_mult": 6,  "alpha": 203.4, "sem_plus": 0.0173,  "sem_minus": 0.0134,  "rand_plus": 0.0167, "rand_minus": -0.0004},
+    {"alpha_mult": 10, "alpha": 339.1, "sem_plus": 0.0216,  "sem_minus": 0.0155,  "rand_plus": 0.0334, "rand_minus": -0.0217},
+    {"alpha_mult": 15, "alpha": 508.6, "sem_plus": 0.0255,  "sem_minus": 0.0118,  "rand_plus": 0.0367, "rand_minus": -0.0284},
+    {"alpha_mult": 20, "alpha": 678.2, "sem_plus": 0.0121,  "sem_minus": -0.0196, "rand_plus": 0.0340, "rand_minus": -0.0307}
+  ],
+  "note": "With a single fixed random draw, the random direction's effect was comparable to or larger than the semantic direction's effect at most magnitudes -- a signal that a single random draw is not a reliable control (a single high-dimensional random vector can happen to correlate with generic output-style shifts). The final experiment (steering_experiment.py) therefore samples an independent fresh random direction per prompt and reports the averaged effect, which is a lower-variance estimate of the 'typical' effect of an arbitrary direction. Chosen alpha for the final run: fraction=4.0 (alpha ~= 271.3), an empirically-tuned magnitude between the negligible-effect literal suggestion (fraction=0.5) and the point where outputs start to degrade."
+}

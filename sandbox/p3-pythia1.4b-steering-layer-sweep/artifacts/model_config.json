@@ -1,0 +1,5 @@
+{
+  "model_name": "EleutherAI/pythia-1.4b",
+  "n_layers": 24,
+  "hidden_size": 2048
+}

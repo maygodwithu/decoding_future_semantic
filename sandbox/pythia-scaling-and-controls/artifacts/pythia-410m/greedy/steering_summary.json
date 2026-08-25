@@ -1,0 +1,16 @@
+{
+  "dir": "artifacts/pythia-410m/greedy",
+  "model_name": "EleutherAI/pythia-410m",
+  "layer": 20,
+  "alpha": 99.11671447753906,
+  "agg_std": 24.779178619384766,
+  "n_prompts": 60,
+  "mean_sentiment_score_base": 0.01119198091328144,
+  "mean_sentiment_score_semantic": 0.01833336241543293,
+  "mean_sentiment_score_random": 0.014901365153491497,
+  "steering_effect_semantic": 0.007141379173845053,
+  "steering_effect_random": 0.0037093840073794127,
+  "steering_margin": 0.00343199516646564,
+  "frac_semantic_shift_positive": 0.55,
+  "frac_random_shift_positive": 0.48333333333333334
+}

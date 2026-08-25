@@ -1,0 +1,31 @@
+{
+  "model_name": "EleutherAI/pythia-1.4b",
+  "decode": "greedy",
+  "decoding_params": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 256
+  },
+  "n_usable_prompts": 600,
+  "max_new_tokens": 256,
+  "min_gen_tokens_filter": 16,
+  "seed": 42,
+  "n_layers": 24,
+  "hidden_dim": 2048,
+  "layers_extracted": [
+    4,
+    8,
+    12,
+    20
+  ],
+  "realized_len_mean": 251.02833333333334,
+  "realized_len_median": 256.0,
+  "n_at_horizon": {
+    "16": 600,
+    "48": 600,
+    "96": 591,
+    "192": 581,
+    "256": 577
+  },
+  "frac_hit_eos_before_256": 0.03833333333333333
+}

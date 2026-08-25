@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[targets] 600 usable generations loaded
+[targets] horizon 16: encoding 600 target texts
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5314.27it/s]
+[targets] horizon 16 stats: {'mean_used_len': 16.0, 'median_used_len': 16.0, 'frac_shorter_than_H_due_to_eos_or_short_gen': 0.0, 'char_len_mean': 63.215, 'char_len_median': 63.0, 'n': 600}
+[targets] horizon 48: encoding 600 target texts
+[targets] horizon 48 stats: {'mean_used_len': 48.0, 'median_used_len': 48.0, 'frac_shorter_than_H_due_to_eos_or_short_gen': 0.0, 'char_len_mean': 191.47333333333333, 'char_len_median': 195.0, 'n': 600}
+[targets] horizon 96: encoding 600 target texts
+[targets] horizon 96 stats: {'mean_used_len': 95.69666666666667, 'median_used_len': 96.0, 'frac_shorter_than_H_due_to_eos_or_short_gen': 0.015, 'char_len_mean': 381.005, 'char_len_median': 389.0, 'n': 600}
+[targets] rollout m=3: encoding 600 prefix texts (mean used_len=3.00)
+[targets] rollout m=5: encoding 600 prefix texts (mean used_len=5.00)
+[targets] rollout m=10: encoding 600 prefix texts (mean used_len=10.00)
+[targets] rollout m=20: encoding 600 prefix texts (mean used_len=20.00)
+[targets] done

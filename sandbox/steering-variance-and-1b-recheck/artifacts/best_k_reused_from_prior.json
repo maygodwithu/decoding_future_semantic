@@ -1,0 +1,9 @@
+{
+  "source": "/home/jkchoi/project/autopaper/sandbox/steering-scale-alpha-normalization/artifacts/norm_relative_scaling_summary.csv (column best_k_pilot)",
+  "metadata_missing": false,
+  "pythia-410m_best_k": 6.4,
+  "pythia-1.4b_best_k": 6.4,
+  "pythia-2.8b_best_k": 3.2,
+  "pythia-1.0b_best_k_note": "NOT reused; retuned in this run via dense k-sweep (see pythia_1b_dense_k_selection.json)",
+  "pythia-1.0b_best_k_dense": 0.2
+}

@@ -1,0 +1,6 @@
+{
+  "any_positive_ci_excludes_zero": true,
+  "verdict": "layer-selection artifact: at least one pythia-1.0b layer has CI excluding zero",
+  "best_layer": 5,
+  "best_layer_mean_margin": 0.031672344030812385
+}

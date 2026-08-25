@@ -1,0 +1,22 @@
+{
+  "model_name": "EleutherAI/pythia-1b",
+  "model_tag": "pythia-1.0b",
+  "decode_tag": "greedy",
+  "decoding_params": {
+    "do_sample": false,
+    "num_beams": 1
+  },
+  "n_usable_prompts": 549,
+  "max_new_tokens": 24,
+  "seed": 42,
+  "n_layers": 16,
+  "hidden_dim": 2048,
+  "layers_extracted": [
+    3,
+    5,
+    8,
+    13
+  ],
+  "layer20_equivalent_depth_fraction": 0.8333333333333334,
+  "num_parameters": 1011781632
+}

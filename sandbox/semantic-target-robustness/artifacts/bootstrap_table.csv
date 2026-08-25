@@ -1,0 +1,13 @@
+Encoder,Quantity,Point,95% CI low,95% CI high,Excludes 0?
+E1_MiniLM,probe_cosine,0.4283,0.3978,0.4601,Yes
+E1_MiniLM,probe_minus_lexical_tfidf,0.0671,0.0434,0.0910,Yes
+E1_MiniLM,probe_minus_rollout_m3,-0.0475,-0.0974,0.0022,No
+E1_MiniLM,probe_minus_rollout_m5,-0.2089,-0.2596,-0.1569,Yes
+E2_BGE,probe_cosine,0.7034,0.6881,0.7186,Yes
+E2_BGE,probe_minus_lexical_tfidf,0.0410,0.0336,0.0483,Yes
+E2_BGE,probe_minus_rollout_m3,0.0217,-0.0021,0.0455,No
+E2_BGE,probe_minus_rollout_m5,-0.0664,-0.0905,-0.0417,Yes
+E3_E5,probe_cosine,0.8574,0.8513,0.8634,Yes
+E3_E5,probe_minus_lexical_tfidf,0.0119,0.0079,0.0160,Yes
+E3_E5,probe_minus_rollout_m3,0.0365,0.0246,0.0484,Yes
+E3_E5,probe_minus_rollout_m5,-0.0095,-0.0226,0.0035,No

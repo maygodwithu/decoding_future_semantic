@@ -1,0 +1,35 @@
+{
+  "best_layer": 20,
+  "alpha": 271.2640075683594,
+  "pilot_aggregate_std": 67.81600189208984,
+  "n_prompts": 76,
+  "cos_dsentiment_dtemporal": 0.20474699139595032,
+  "sentiment_direction": {
+    "n": 76,
+    "mean_delta_plus": 0.009774752353367052,
+    "mean_delta_minus": -0.0157654318762453,
+    "frac_plus_correct_direction": 0.5657894736842105,
+    "frac_minus_correct_direction": 0.618421052631579
+  },
+  "sentiment_random_control": {
+    "n": 76,
+    "mean_delta_plus": 0.004243274280605347,
+    "mean_delta_minus": 0.0034557423725920288,
+    "frac_plus_correct_direction": 0.47368421052631576,
+    "frac_minus_correct_direction": 0.5
+  },
+  "temporal_direction": {
+    "n": 76,
+    "mean_delta_plus": 0.13452640407424615,
+    "mean_delta_minus": -0.0026033943592521703,
+    "frac_plus_correct_direction": 0.868421052631579,
+    "frac_minus_correct_direction": 0.5657894736842105
+  },
+  "temporal_random_control": {
+    "n": 76,
+    "mean_delta_plus": -0.00952327626414205,
+    "mean_delta_minus": 0.0006659249162399455,
+    "frac_plus_correct_direction": 0.4605263157894737,
+    "frac_minus_correct_direction": 0.47368421052631576
+  }
+}

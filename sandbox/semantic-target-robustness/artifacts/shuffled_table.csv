@@ -1,0 +1,4 @@
+Encoder,Normal,Shuffled,Difference,Perm seed
+E1_MiniLM,0.4283,0.2316,0.1967,42
+E2_BGE,0.7034,0.6363,0.0671,42
+E3_E5,0.8574,0.8282,0.0292,42

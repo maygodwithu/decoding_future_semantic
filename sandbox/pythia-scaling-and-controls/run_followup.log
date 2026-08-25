@@ -1,0 +1,349 @@
+[run_followup] === scaling model EleutherAI/pythia-410m (pythia-410m) === free_disk=41.7GB
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python extract_hidden_and_generations.py --model_name EleutherAI/pythia-410m --decode greedy --out_dir artifacts/pythia-410m/greedy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[extract] 549 usable prompts, model=EleutherAI/pythia-410m decode=greedy
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 3611.75it/s]
+[extract] model has 24 blocks; hidden_dim=1024; extracting layers [4, 8, 12, 20]
+[extract] gen batch 1/23 (6.8s)
+[extract] gen batch 6/23 (8.1s)
+[extract] gen batch 11/23 (9.0s)
+[extract] gen batch 16/23 (10.0s)
+[extract] gen batch 21/23 (11.0s)
+[extract] gen batch 23/23 (11.4s)
+[extract] hidden batch 1/23 (11.4s)
+[extract] hidden batch 6/23 (11.5s)
+[extract] hidden batch 11/23 (11.5s)
+[extract] hidden batch 16/23 (11.6s)
+[extract] hidden batch 21/23 (11.7s)
+[extract] hidden batch 23/23 (11.7s)
+[extract] saved to artifacts/pythia-410m/greedy; total time 11.7s; peak GPU mem 0.97GB
+[run_followup] done in 13.8s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python embed_continuations.py --dir artifacts/pythia-410m/greedy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[embed] encoding 549 continuations from artifacts/pythia-410m/greedy
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6739.15it/s]
+[embed] saved artifacts/pythia-410m/greedy/continuation_embeddings.npy shape=(549, 384)
+[embed] saved artifacts/pythia-410m/greedy/train_mean_embedding.npy
+[run_followup] done in 10.3s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python probe_train_generic.py --dir artifacts/pythia-410m/greedy
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.419718617285298e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 6.608353686488044e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 6.118507034358345e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 5.476085007671827e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.121509160157302e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.488924325116386e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.7510825012223563e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.893633385298472e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.856613220586951e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+[probe:artifacts/pythia-410m/greedy] layer 4: alpha=1000.0 train_cos=0.5466 val_cos=0.3146 test_cos=0.3072
+[probe:artifacts/pythia-410m/greedy] layer 8: alpha=1000.0 train_cos=0.6193 val_cos=0.3279 test_cos=0.3269
+[probe:artifacts/pythia-410m/greedy] layer 12: alpha=1000.0 train_cos=0.6040 val_cos=0.3402 test_cos=0.3379
+[probe:artifacts/pythia-410m/greedy] layer 20: alpha=1000.0 train_cos=0.7686 val_cos=0.3992 test_cos=0.4260
+[probe:artifacts/pythia-410m/greedy] best layer by val cosine: 20
+[probe:artifacts/pythia-410m/greedy] mean_baseline=0.2307 random_match=0.0543
+[probe:artifacts/pythia-410m/greedy] retrieval (layer 20) probe={'recall_at_1': 0.5060240963855421, 'recall_at_5': 0.8072289156626506, 'mean_rank': 4.927710843373494, 'n_query': 83}
+[run_followup] done in 3.9s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python steering_generic.py --dir artifacts/pythia-410m/greedy --model_name EleutherAI/pythia-410m --layer 20 --n_prompts 60 --out_json artifacts/pythia-410m/greedy/steering_summary.json
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[steer:artifacts/pythia-410m/greedy] 60 eligible test prompts selected
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 6970.18it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5461.68it/s]
+[steer:artifacts/pythia-410m/greedy] alpha=99.1167 agg_std=24.7792
+[steer:artifacts/pythia-410m/greedy] batch 1 done
+[steer:artifacts/pythia-410m/greedy] batch 2 done
+[steer:artifacts/pythia-410m/greedy] batch 3 done
+{
+  "dir": "artifacts/pythia-410m/greedy",
+  "model_name": "EleutherAI/pythia-410m",
+  "layer": 20,
+  "alpha": 99.11671447753906,
+  "agg_std": 24.779178619384766,
+  "n_prompts": 60,
+  "mean_sentiment_score_base": 0.01119198091328144,
+  "mean_sentiment_score_semantic": 0.01833336241543293,
+  "mean_sentiment_score_random": 0.014901365153491497,
+  "steering_effect_semantic": 0.007141379173845053,
+  "steering_effect_random": 0.0037093840073794127,
+  "steering_margin": 0.00343199516646564,
+  "frac_semantic_shift_positive": 0.55,
+  "frac_random_shift_positive": 0.48333333333333334
+}
+[run_followup] done in 15.0s
+[run_followup] cleaned HF cache for EleutherAI/pythia-410m
+[run_followup] === scaling model EleutherAI/pythia-1b (pythia-1.0b) === free_disk=42.6GB
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python extract_hidden_and_generations.py --model_name EleutherAI/pythia-1b --decode greedy --out_dir artifacts/pythia-1.0b/greedy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[extract] 549 usable prompts, model=EleutherAI/pythia-1b decode=greedy
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 6730.34it/s]
+[extract] model has 16 blocks; hidden_dim=2048; extracting layers [3, 5, 8, 13]
+[extract] gen batch 1/23 (34.7s)
+[extract] gen batch 6/23 (35.6s)
+[extract] gen batch 11/23 (36.3s)
+[extract] gen batch 16/23 (37.0s)
+[extract] gen batch 21/23 (37.8s)
+[extract] gen batch 23/23 (38.1s)
+[extract] hidden batch 1/23 (38.1s)
+[extract] hidden batch 6/23 (38.2s)
+[extract] hidden batch 11/23 (38.2s)
+[extract] hidden batch 16/23 (38.3s)
+[extract] hidden batch 21/23 (38.3s)
+[extract] hidden batch 23/23 (38.3s)
+[extract] saved to artifacts/pythia-1.0b/greedy; total time 38.3s; peak GPU mem 2.22GB
+[run_followup] done in 40.5s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python embed_continuations.py --dir artifacts/pythia-1.0b/greedy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[embed] encoding 549 continuations from artifacts/pythia-1.0b/greedy
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2586.47it/s]
+[embed] saved artifacts/pythia-1.0b/greedy/continuation_embeddings.npy shape=(549, 384)
+[embed] saved artifacts/pythia-1.0b/greedy/train_mean_embedding.npy
+[run_followup] done in 11.6s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python probe_train_generic.py --dir artifacts/pythia-1.0b/greedy
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 5.425921045798532e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.685806149178461e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.636216578366657e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.3656316017195422e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.615868632815932e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.629812906855932e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.0331345074463556e-11.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.227566436336815e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.857372732340991e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+[probe:artifacts/pythia-1.0b/greedy] layer 3: alpha=1000.0 train_cos=0.6632 val_cos=0.2919 test_cos=0.3119
+[probe:artifacts/pythia-1.0b/greedy] layer 5: alpha=1000.0 train_cos=0.7421 val_cos=0.2996 test_cos=0.3220
+[probe:artifacts/pythia-1.0b/greedy] layer 8: alpha=1000.0 train_cos=0.7796 val_cos=0.3137 test_cos=0.3379
+[probe:artifacts/pythia-1.0b/greedy] layer 13: alpha=10000.0 train_cos=0.6911 val_cos=0.3627 test_cos=0.4020
+[probe:artifacts/pythia-1.0b/greedy] best layer by val cosine: 13
+[probe:artifacts/pythia-1.0b/greedy] mean_baseline=0.2240 random_match=0.0294
+[probe:artifacts/pythia-1.0b/greedy] retrieval (layer 13) probe={'recall_at_1': 0.3493975903614458, 'recall_at_5': 0.6867469879518072, 'mean_rank': 8.204819277108435, 'n_query': 83}
+[run_followup] done in 4.8s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python steering_generic.py --dir artifacts/pythia-1.0b/greedy --model_name EleutherAI/pythia-1b --layer 13 --n_prompts 60 --out_json artifacts/pythia-1.0b/greedy/steering_summary.json
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[steer:artifacts/pythia-1.0b/greedy] 60 eligible test prompts selected
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 5154.87it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3021.71it/s]
+[steer:artifacts/pythia-1.0b/greedy] alpha=200.2318 agg_std=50.0580
+[steer:artifacts/pythia-1.0b/greedy] batch 1 done
+[steer:artifacts/pythia-1.0b/greedy] batch 2 done
+[steer:artifacts/pythia-1.0b/greedy] batch 3 done
+{
+  "dir": "artifacts/pythia-1.0b/greedy",
+  "model_name": "EleutherAI/pythia-1b",
+  "layer": 13,
+  "alpha": 200.23184204101562,
+  "agg_std": 50.057960510253906,
+  "n_prompts": 60,
+  "mean_sentiment_score_base": -0.004006626550108194,
+  "mean_sentiment_score_semantic": 0.020553354173898697,
+  "mean_sentiment_score_random": 0.00927874818444252,
+  "steering_effect_semantic": 0.024559980258345604,
+  "steering_effect_random": 0.013285375200212002,
+  "steering_margin": 0.011274605058133602,
+  "frac_semantic_shift_positive": 0.6,
+  "frac_random_shift_positive": 0.55
+}
+[run_followup] done in 14.9s
+[run_followup] cleaned HF cache for EleutherAI/pythia-1b
+[run_followup] === scaling model EleutherAI/pythia-1.4b (pythia-1.4b) === free_disk=42.6GB
+[run_followup] === scaling model EleutherAI/pythia-2.8b (pythia-2.8b) === free_disk=42.6GB
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python extract_hidden_and_generations.py --model_name EleutherAI/pythia-2.8b --decode greedy --out_dir artifacts/pythia-2.8b/greedy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[extract] 549 usable prompts, model=EleutherAI/pythia-2.8b decode=greedy
+Loading weights:   0%|          | 0/388 [00:00<?, ?it/s]Loading weights: 100%|██████████| 388/388 [00:00<00:00, 8231.28it/s]
+[extract] model has 32 blocks; hidden_dim=2560; extracting layers [5, 11, 16, 27]
+[extract] gen batch 1/23 (7.3s)
+[extract] gen batch 6/23 (9.2s)
+[extract] gen batch 11/23 (10.9s)
+[extract] gen batch 16/23 (12.6s)
+[extract] gen batch 21/23 (14.3s)
+[extract] gen batch 23/23 (15.2s)
+[extract] hidden batch 1/23 (15.2s)
+[extract] hidden batch 6/23 (15.3s)
+[extract] hidden batch 11/23 (15.4s)
+[extract] hidden batch 16/23 (15.5s)
+[extract] hidden batch 21/23 (15.6s)
+[extract] hidden batch 23/23 (15.6s)
+[extract] saved to artifacts/pythia-2.8b/greedy; total time 15.7s; peak GPU mem 5.95GB
+[run_followup] done in 18.2s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python embed_continuations.py --dir artifacts/pythia-2.8b/greedy
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[embed] encoding 549 continuations from artifacts/pythia-2.8b/greedy
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4552.30it/s]
+[embed] saved artifacts/pythia-2.8b/greedy/continuation_embeddings.npy shape=(549, 384)
+[embed] saved artifacts/pythia-2.8b/greedy/train_mean_embedding.npy
+[run_followup] done in 11.5s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python probe_train_generic.py --dir artifacts/pythia-2.8b/greedy
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.309809589908014e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.464873164053643e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.203379936981946e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.117467060169247e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 6.724526713242085e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 5.185213147740342e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.923738217144091e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.1544875872823184e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.717743418147791e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.761069092422247e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 8.001046936101375e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.627440368196403e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+[probe:artifacts/pythia-2.8b/greedy] layer 5: alpha=1000.0 train_cos=0.7620 val_cos=0.3120 test_cos=0.3221
+[probe:artifacts/pythia-2.8b/greedy] layer 11: alpha=1000.0 train_cos=0.8441 val_cos=0.3310 test_cos=0.3464
+[probe:artifacts/pythia-2.8b/greedy] layer 16: alpha=1000.0 train_cos=0.8826 val_cos=0.3428 test_cos=0.3713
+[probe:artifacts/pythia-2.8b/greedy] layer 27: alpha=10000.0 train_cos=0.8495 val_cos=0.3985 test_cos=0.4312
+[probe:artifacts/pythia-2.8b/greedy] best layer by val cosine: 27
+[probe:artifacts/pythia-2.8b/greedy] mean_baseline=0.2241 random_match=0.0555
+[probe:artifacts/pythia-2.8b/greedy] retrieval (layer 27) probe={'recall_at_1': 0.46987951807228917, 'recall_at_5': 0.8433734939759037, 'mean_rank': 4.759036144578313, 'n_query': 83}
+[run_followup] done in 5.1s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python steering_generic.py --dir artifacts/pythia-2.8b/greedy --model_name EleutherAI/pythia-2.8b --layer 27 --n_prompts 60 --out_json artifacts/pythia-2.8b/greedy/steering_summary.json
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[steer:artifacts/pythia-2.8b/greedy] 60 eligible test prompts selected
+Loading weights:   0%|          | 0/388 [00:00<?, ?it/s]Loading weights: 100%|██████████| 388/388 [00:00<00:00, 7597.99it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3864.99it/s]
+[steer:artifacts/pythia-2.8b/greedy] alpha=576.7410 agg_std=144.1853
+[steer:artifacts/pythia-2.8b/greedy] batch 1 done
+[steer:artifacts/pythia-2.8b/greedy] batch 2 done
+[steer:artifacts/pythia-2.8b/greedy] batch 3 done
+{
+  "dir": "artifacts/pythia-2.8b/greedy",
+  "model_name": "EleutherAI/pythia-2.8b",
+  "layer": 27,
+  "alpha": 576.7410278320312,
+  "agg_std": 144.1852569580078,
+  "n_prompts": 60,
+  "mean_sentiment_score_base": 0.0028036334551870823,
+  "mean_sentiment_score_semantic": 0.015722190961241722,
+  "mean_sentiment_score_random": 0.01567990705370903,
+  "steering_effect_semantic": 0.012918556109070778,
+  "steering_effect_random": 0.012876274064183235,
+  "steering_margin": 4.2282044887542725e-05,
+  "frac_semantic_shift_positive": 0.6166666666666667,
+  "frac_random_shift_positive": 0.6
+}
+[run_followup] done in 16.0s
+[run_followup] cleaned HF cache for EleutherAI/pythia-2.8b
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python extract_hidden_and_generations.py --model_name EleutherAI/pythia-1.4b --decode sampled --temperature 0.8 --top_p 0.95 --seed 42 --out_dir artifacts/pythia-1.4b/sampled
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[extract] 549 usable prompts, model=EleutherAI/pythia-1.4b decode=sampled
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5003.48it/s]
+[extract] model has 24 blocks; hidden_dim=2048; extracting layers [4, 8, 12, 20]
+[extract] gen batch 1/23 (7.3s)
+[extract] gen batch 6/23 (8.8s)
+[extract] gen batch 11/23 (10.2s)
+[extract] gen batch 16/23 (11.6s)
+[extract] gen batch 21/23 (13.1s)
+[extract] gen batch 23/23 (13.7s)
+[extract] hidden batch 1/23 (13.7s)
+[extract] hidden batch 6/23 (13.8s)
+[extract] hidden batch 11/23 (13.9s)
+[extract] hidden batch 16/23 (13.9s)
+[extract] hidden batch 21/23 (14.0s)
+[extract] hidden batch 23/23 (14.1s)
+[extract] saved to artifacts/pythia-1.4b/sampled; total time 14.1s; peak GPU mem 3.10GB
+[run_followup] done in 16.6s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python embed_continuations.py --dir artifacts/pythia-1.4b/sampled
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[embed] encoding 549 continuations from artifacts/pythia-1.4b/sampled
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1972.45it/s]
+[embed] saved artifacts/pythia-1.4b/sampled/continuation_embeddings.npy shape=(549, 384)
+[embed] saved artifacts/pythia-1.4b/sampled/train_mean_embedding.npy
+[run_followup] done in 10.8s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python probe_train_generic.py --dir artifacts/pythia-1.4b/sampled
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.817348215306993e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.9364931819486628e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1616633210920213e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6684003512068557e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6331167529415325e-09.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.7202451019215914e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:266: UserWarning: Singular matrix in solving dual problem. Using least-squares solution instead.
+  warnings.warn(
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 6.965823473592536e-10.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+/home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/lib/python3.11/site-packages/sklearn/linear_model/_ridge.py:264: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.2770582813459441e-08.
+  dual_coef = linalg.solve(K, y, assume_a="pos", overwrite_a=False)
+[probe:artifacts/pythia-1.4b/sampled] layer 4: alpha=1000.0 train_cos=0.6890 val_cos=0.2661 test_cos=0.2539
+[probe:artifacts/pythia-1.4b/sampled] layer 8: alpha=10000.0 train_cos=0.4962 val_cos=0.2661 test_cos=0.2601
+[probe:artifacts/pythia-1.4b/sampled] layer 12: alpha=1000.0 train_cos=0.7853 val_cos=0.2810 test_cos=0.2765
+[probe:artifacts/pythia-1.4b/sampled] layer 20: alpha=10000.0 train_cos=0.7416 val_cos=0.3371 test_cos=0.3508
+[probe:artifacts/pythia-1.4b/sampled] best layer by val cosine: 20
+[probe:artifacts/pythia-1.4b/sampled] mean_baseline=0.2042 random_match=0.0361
+[probe:artifacts/pythia-1.4b/sampled] retrieval (layer 20) probe={'recall_at_1': 0.3132530120481928, 'recall_at_5': 0.6987951807228916, 'mean_rank': 5.674698795180723, 'n_query': 83}
+[run_followup] done in 5.9s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python token_identity_control.py --dir artifacts/pythia-1.4b/sampled --model_name EleutherAI/pythia-1.4b --layer 20 --probe_layer 20 --out_csv artifacts/pythia-1.4b/sampled/token_control_results.csv
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 5880.10it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3008.01it/s]
+[token_control] wrote artifacts/pythia-1.4b/sampled/token_control_results.csv
+{'method': 'semantic_probe_layer20', 'test_cosine': 0.3507694629728986, 'recall_at_5': 0.6987951807228916, 'margin_vs_probe': 0.0, 'lexical_jaccard': ''}
+{'method': 'topk_concat_k1', 'test_cosine': 0.10291094660721581, 'recall_at_5': 0.08433734939759036, 'margin_vs_probe': 0.24785851636568282, 'lexical_jaccard': 0.06324322749543757}
+{'method': 'topk_weighted_k1', 'test_cosine': 0.09685401678640007, 'recall_at_5': 0.12048192771084337, 'margin_vs_probe': 0.25391544618649853, 'lexical_jaccard': 0.06324322749543757}
+{'method': 'topk_concat_k5', 'test_cosine': 0.13677634130992594, 'recall_at_5': 0.1927710843373494, 'margin_vs_probe': 0.21399312166297269, 'lexical_jaccard': 0.07522382599063127}
+{'method': 'topk_weighted_k5', 'test_cosine': 0.13552650771515962, 'recall_at_5': 0.20481927710843373, 'margin_vs_probe': 0.215242955257739, 'lexical_jaccard': 0.09340029176771623}
+{'method': 'topk_concat_k10', 'test_cosine': 0.14336489194991356, 'recall_at_5': 0.30120481927710846, 'margin_vs_probe': 0.20740457102298507, 'lexical_jaccard': 0.07470492104412718}
+{'method': 'topk_weighted_k10', 'test_cosine': 0.14597902143022914, 'recall_at_5': 0.26506024096385544, 'margin_vs_probe': 0.20479044154266948, 'lexical_jaccard': 0.0900881772136599}
+{'method': 'short_rollout_m1', 'test_cosine': 0.17620653829740077, 'recall_at_5': 0.20481927710843373, 'margin_vs_probe': 0.17456292467549786, 'lexical_jaccard': 0.1042748413654639}
+{'method': 'short_rollout_m3', 'test_cosine': 0.45115973988762387, 'recall_at_5': 0.8313253012048193, 'margin_vs_probe': -0.10039027691472524, 'lexical_jaccard': 0.28496629287175373}
+{'method': 'short_rollout_m5', 'test_cosine': 0.5994159562020464, 'recall_at_5': 0.9518072289156626, 'margin_vs_probe': -0.24864649322914772, 'lexical_jaccard': 0.4272844651649344}
+[run_followup] done in 14.2s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python build_summaries.py
+[build_summaries] wrote artifacts/scaling_summary.csv (4 models)
+[build_summaries] wrote artifacts/pythia-1.4b/decoding_comparison.csv
+[build_summaries] wrote artifacts/final_summary.json
+[run_followup] done in 0.0s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python plot_scaling.py
+[plot] saved artifacts/scaling_probe.png
+[plot] saved artifacts/scaling_steering.png
+[run_followup] done in 0.7s
+[run_followup] $ /home/jkchoi/miniforge3/envs/paper-pythia-scaling-and-controls/bin/python write_report.py
+[write_report] wrote report.md
+[write_report] updated artifacts/final_summary.json with verdicts
+[run_followup] done in 0.0s
+[run_followup] ALL DONE

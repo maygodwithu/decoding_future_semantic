@@ -1,0 +1,600 @@
+{"prompt": "Penalty minutes ; + / - = Plus /", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 0}
+{"prompt": "The team was involved in a controversial", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 1}
+{"prompt": "The news report about climate change explained that", "domain": "explanation_slot", "source": "template_slot", "id": 2}
+{"prompt": "The news report about artificial intelligence explained that", "domain": "explanation_slot", "source": "template_slot", "id": 3}
+{"prompt": "The news report about the tax reform explained that", "domain": "explanation_slot", "source": "template_slot", "id": 4}
+{"prompt": "Passed over in the Entry Draft , Cullen was", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 5}
+{"prompt": "Famitsu enjoyed the story , and were particularly", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 6}
+{"prompt": "A recent study on the new smartphone found that", "domain": "explanation_slot", "source": "template_slot", "id": 7}
+{"prompt": "Old Rhymes for All Times", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 8}
+{"prompt": "His career was halted in 1997", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 9}
+{"prompt": "The debate over climate change continued because", "domain": "explanation_slot", "source": "template_slot", "id": 10}
+{"prompt": "\" There 's Got to Be", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 11}
+{"prompt": "Repaired and painted :", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 12}
+{"prompt": "\"Let's go,\" said Maria, before", "domain": "dialogue", "source": "template_fixed", "id": 13}
+{"prompt": "The main cause of the delay was", "domain": "explanation", "source": "template_fixed", "id": 14}
+{"prompt": "Two weeks prior to the NHL trade deadline ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 15}
+{"prompt": "I Am Among You As He That Serveth ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 16}
+{"prompt": "The debate over the coral reefs continued because", "domain": "explanation_slot", "source": "template_slot", "id": 17}
+{"prompt": "A New Epiphany ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 18}
+{"prompt": "The Book of the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 19}
+{"prompt": "The news report about the archaeological dig explained that", "domain": "explanation_slot", "source": "template_slot", "id": 20}
+{"prompt": "The news report about the currency exchange explained that", "domain": "explanation_slot", "source": "template_slot", "id": 21}
+{"prompt": "Experts studying the film adaptation discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 22}
+{"prompt": "The debate over the music festival continued because", "domain": "explanation_slot", "source": "template_slot", "id": 23}
+{"prompt": "Experts studying climate change discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 24}
+{"prompt": "Baptismal rolls ; St.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 25}
+{"prompt": "The gods ' complex characteristics were expressed in", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 26}
+{"prompt": "The real value of this book lies in", "domain": "opinion", "source": "template_fixed", "id": 27}
+{"prompt": "\"Can you help me?\" the boy asked,", "domain": "dialogue", "source": "template_fixed", "id": 28}
+{"prompt": "The last thing she remembered was", "domain": "story", "source": "template_fixed", "id": 29}
+{"prompt": "The engine overheated because", "domain": "explanation", "source": "template_fixed", "id": 30}
+{"prompt": "The news report about the power outage explained that", "domain": "explanation_slot", "source": "template_slot", "id": 31}
+{"prompt": "M1855 .58 cal rifle @-@ muskets 900", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 32}
+{"prompt": "The news report about the ancient ruins explained that", "domain": "explanation_slot", "source": "template_slot", "id": 33}
+{"prompt": "Prices increased because", "domain": "explanation", "source": "template_fixed", "id": 34}
+{"prompt": "Major General Thomas C.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 35}
+{"prompt": "Kate Greenaway was a childhood favorite and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 36}
+{"prompt": "The Great Wall of China was built to", "domain": "factual", "source": "template_fixed", "id": 37}
+{"prompt": "The bridge collapsed because", "domain": "explanation", "source": "template_fixed", "id": 38}
+{"prompt": "Dunnington continued to build up his works", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 39}
+{"prompt": "The Blue Jackets struggled in shorthanded situations ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 40}
+{"prompt": "\"I've never seen anything like it,\" the guide said,", "domain": "dialogue", "source": "template_fixed", "id": 41}
+{"prompt": "A recent study on the robotics competition found that", "domain": "explanation_slot", "source": "template_slot", "id": 42}
+{"prompt": "This movement is prompted by the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 43}
+{"prompt": "To improve your writing, try to", "domain": "instruction", "source": "template_fixed", "id": 44}
+{"prompt": "The news report about the school curriculum explained that", "domain": "explanation_slot", "source": "template_slot", "id": 45}
+{"prompt": "N @-@ 88 was unofficially designated around", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 46}
+{"prompt": "Cullen made his NHL", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 47}
+{"prompt": "Fernandez has participated in several", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 48}
+{"prompt": "Since being founded as an", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 49}
+{"prompt": "The Confederate ordnance establishment at", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 50}
+{"prompt": "The reason this matters is that", "domain": "explanation", "source": "template_fixed", "id": 51}
+{"prompt": "Beautiful Bible Pictures ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 52}
+{"prompt": "The human heart has", "domain": "factual", "source": "template_fixed", "id": 53}
+{"prompt": "Barker was a devout Anglican , and donated her", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 54}
+{"prompt": "The arsenal was constructed at the request", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 55}
+{"prompt": "Photosynthesis occurs in", "domain": "factual", "source": "template_fixed", "id": 56}
+{"prompt": "Experts studying the national park discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 57}
+{"prompt": "75 @,@ 000 buck", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 58}
+{"prompt": "\"I have some news,\" John began,", "domain": "dialogue", "source": "template_fixed", "id": 59}
+{"prompt": "In the future,", "domain": "story", "source": "template_fixed", "id": 60}
+{"prompt": "Everyone was talking about the software update because", "domain": "explanation_slot", "source": "template_slot", "id": 61}
+{"prompt": "A recent study on renewable energy found that", "domain": "explanation_slot", "source": "template_slot", "id": 62}
+{"prompt": "Everyone was talking about the trade agreement because", "domain": "explanation_slot", "source": "template_slot", "id": 63}
+{"prompt": "Everyone was talking about urban farming because", "domain": "explanation_slot", "source": "template_slot", "id": 64}
+{"prompt": "A recent study on the census data found that", "domain": "explanation_slot", "source": "template_slot", "id": 65}
+{"prompt": "The news report about the art exhibit explained that", "domain": "explanation_slot", "source": "template_slot", "id": 66}
+{"prompt": "Experts studying the wildlife reserve discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 67}
+{"prompt": "The plain maskray generally hunts at the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 68}
+{"prompt": "Most of the equipment , arms , and machinery", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 69}
+{"prompt": "The news report about the wildlife reserve explained that", "domain": "explanation_slot", "source": "template_slot", "id": 70}
+{"prompt": "Ice floats on water because", "domain": "explanation", "source": "template_fixed", "id": 71}
+{"prompt": "Everyone was talking about the startup because", "domain": "explanation_slot", "source": "template_slot", "id": 72}
+{"prompt": "The news report about the labor strike explained that", "domain": "explanation_slot", "source": "template_slot", "id": 73}
+{"prompt": "Barker was equally proficient in watercolour , pen", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 74}
+{"prompt": "Everyone was talking about the merger because", "domain": "explanation_slot", "source": "template_slot", "id": 75}
+{"prompt": "To make coffee, you need to", "domain": "instruction", "source": "template_fixed", "id": 76}
+{"prompt": "Flower Fairies of the Spring ; Blackie", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 77}
+{"prompt": "A recent study on the interest rate hike found that", "domain": "explanation_slot", "source": "template_slot", "id": 78}
+{"prompt": "Kurt and Riela were featured in the Nintendo 3DS", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 79}
+{"prompt": "The key insight here is that", "domain": "explanation", "source": "template_fixed", "id": 80}
+{"prompt": "M1841 rifle ( \" Mississippi Rifle \" )", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 81}
+{"prompt": "Jacqueline Fernandez ( born 11 August 1985 ) is", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 82}
+{"prompt": "Fairies became a popular theme", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 83}
+{"prompt": "Experts studying the coral reefs discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 84}
+{"prompt": "The Little Picture Hymn Book", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 85}
+{"prompt": "The building and the surrounding park were used for", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 86}
+{"prompt": "When Mason was injured in warm @-@", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 87}
+{"prompt": "A recent study on the film adaptation found that", "domain": "explanation_slot", "source": "template_slot", "id": 88}
+{"prompt": "To stay safe while hiking, always", "domain": "instruction", "source": "template_fixed", "id": 89}
+{"prompt": "A recent study on the satellite launch found that", "domain": "explanation_slot", "source": "template_slot", "id": 90}
+{"prompt": "Cullen 's battle with cancer", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 91}
+{"prompt": "M1817 common rifles 125", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 92}
+{"prompt": "People often overlook the fact that", "domain": "opinion", "source": "template_fixed", "id": 93}
+{"prompt": "The Egyptians distinguished n\u1e6frw , \" gods \" ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 94}
+{"prompt": "The Egyptian language 's terms for these", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 95}
+{"prompt": "The ship briefly operated between Glasgow and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 96}
+{"prompt": "Partly due to these events , and partly", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 97}
+{"prompt": "The \" Summaries of Work done at", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 98}
+{"prompt": "23 pistols ( repaired mostly for troops in", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 99}
+{"prompt": "During the month of August ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 100}
+{"prompt": "Experts studying the school curriculum discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 101}
+{"prompt": "I think the most important factor is", "domain": "opinion", "source": "template_fixed", "id": 102}
+{"prompt": "\"It's finally finished,\" the engineer announced,", "domain": "dialogue", "source": "template_fixed", "id": 103}
+{"prompt": "When cooking rice, make sure to", "domain": "instruction", "source": "template_fixed", "id": 104}
+{"prompt": "The debate over the fashion show continued because", "domain": "explanation_slot", "source": "template_slot", "id": 105}
+{"prompt": "Inside the Little Rock Arsenal after its seizure in", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 106}
+{"prompt": "In my opinion, the best approach is", "domain": "opinion", "source": "template_fixed", "id": 107}
+{"prompt": "The Penguins ' needs led", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 108}
+{"prompt": "A Little Book of Rhymes New and Old", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 109}
+{"prompt": "The beings in ancient Egyptian tradition who might", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 110}
+{"prompt": "Midway through the 1992", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 111}
+{"prompt": "Music critic Robert Christgau felt", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 112}
+{"prompt": "The debate over the drought continued because", "domain": "explanation_slot", "source": "template_slot", "id": 113}
+{"prompt": "Barker died at Worthing", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 114}
+{"prompt": "During the same time frame as", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 115}
+{"prompt": "After two months of", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 116}
+{"prompt": "Confronting these blurred distinctions between gods", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 117}
+{"prompt": "The process is simple:", "domain": "explanation", "source": "template_fixed", "id": 118}
+{"prompt": "Everyone was talking about the labor strike because", "domain": "explanation_slot", "source": "template_slot", "id": 119}
+{"prompt": "Divisions : CE \u2013 Central ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 120}
+{"prompt": "Prior to marrying his", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 121}
+{"prompt": "Follow these steps to install the software:", "domain": "instruction", "source": "template_fixed", "id": 122}
+{"prompt": "In addition to acting in films , Fernandez", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 123}
+{"prompt": "The main drawback of remote work is", "domain": "opinion", "source": "template_fixed", "id": 124}
+{"prompt": "Barker 's sketches , drawings , and paintings", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 125}
+{"prompt": "Experts studying renewable energy discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 126}
+{"prompt": "The debate over the census data continued because", "domain": "explanation_slot", "source": "template_slot", "id": 127}
+{"prompt": "The news report about the fashion show explained that", "domain": "explanation_slot", "source": "template_slot", "id": 128}
+{"prompt": "The news report about renewable energy explained that", "domain": "explanation_slot", "source": "template_slot", "id": 129}
+{"prompt": "The instructions say to first", "domain": "instruction", "source": "template_fixed", "id": 130}
+{"prompt": "He idolized his elder brother Terry , who", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 131}
+{"prompt": "After the first five games ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 132}
+{"prompt": "The debate over artificial intelligence continued because", "domain": "explanation_slot", "source": "template_slot", "id": 133}
+{"prompt": "The armor of the casemate was", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 134}
+{"prompt": "Two manga adaptations were produced , following each of", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 135}
+{"prompt": "While Fingal was discharging her cargo", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 136}
+{"prompt": "Karan Malhotra 's action drama", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 137}
+{"prompt": "In different eras ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 138}
+{"prompt": "The pectoral fin disc", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 139}
+{"prompt": "Everyone was talking about the ancient ruins because", "domain": "explanation_slot", "source": "template_slot", "id": 140}
+{"prompt": "Time On Ice ( minutes ) ; W", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 141}
+{"prompt": "Lively Words ; Macmillan , 1961 .", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 142}
+{"prompt": "Everyone was talking about the satellite launch because", "domain": "explanation_slot", "source": "template_slot", "id": 143}
+{"prompt": "Groundsel and Necklaces ; Blackie , 1946", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 144}
+{"prompt": "Three days later , on March 28 ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 145}
+{"prompt": "On the morning of February 8 , 1861", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 146}
+{"prompt": "Everyone was talking about the space mission because", "domain": "explanation_slot", "source": "template_slot", "id": 147}
+{"prompt": "The accompanying music video begins with a", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 148}
+{"prompt": "Critics argue that the new law", "domain": "opinion", "source": "template_fixed", "id": 149}
+{"prompt": "Barker was born the second daughter", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 150}
+{"prompt": "The news report about urban farming explained that", "domain": "explanation_slot", "source": "template_slot", "id": 151}
+{"prompt": "The speed of light is approximately", "domain": "factual", "source": "template_fixed", "id": 152}
+{"prompt": "In 1864 , after Little Rock fell to the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 153}
+{"prompt": "Everyone was talking about the coral reefs because", "domain": "explanation_slot", "source": "template_slot", "id": 154}
+{"prompt": "Our Darling \u2019 s First Book (", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 155}
+{"prompt": "The item was intended simply as a piece", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 156}
+{"prompt": "In 1894 the Little Rock \u00c6sthetic Club , one", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 157}
+{"prompt": "In 1985 , few countries had women 's national", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 158}
+{"prompt": "The development of women 's football in", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 159}
+{"prompt": "Plants grow toward light because", "domain": "explanation", "source": "template_fixed", "id": 160}
+{"prompt": "\" There 's Got to Be a", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 161}
+{"prompt": "-John M Harrel Telegram , January", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 162}
+{"prompt": "Return to Fairyopolis ; Frederick Warne ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 163}
+{"prompt": "A recent study on the national park found that", "domain": "explanation_slot", "source": "template_slot", "id": 164}
+{"prompt": "\"Congratulations,\" the manager said, adding that", "domain": "dialogue", "source": "template_fixed", "id": 165}
+{"prompt": "Gambia 's national football association was founded", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 166}
+{"prompt": "Cullen was born in Puslinch", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 167}
+{"prompt": "Experts studying the medical trial discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 168}
+{"prompt": "The news report about the football match explained that", "domain": "explanation_slot", "source": "template_slot", "id": 169}
+{"prompt": "Spring Songs with Music ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 170}
+{"prompt": "As the Nameless officially do not exist", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 171}
+{"prompt": "The main conservation threat to the plain maskray is", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 172}
+{"prompt": "Experts studying the power outage discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 173}
+{"prompt": "In 2010 , Fernandez appeared", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 174}
+{"prompt": "Turn off the device before you", "domain": "instruction", "source": "template_fixed", "id": 175}
+{"prompt": "The old house had always", "domain": "story", "source": "template_fixed", "id": 176}
+{"prompt": "In 1942 , the Tower Building", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 177}
+{"prompt": "A recent study on the immigration debate found that", "domain": "explanation_slot", "source": "template_slot", "id": 178}
+{"prompt": "The news report about the merger explained that", "domain": "explanation_slot", "source": "template_slot", "id": 179}
+{"prompt": "Christmas cards ; Girls ' Friendly Society , 1920s", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 180}
+{"prompt": "The Seven Sacraments ; baptismal font panels ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 181}
+{"prompt": "Attempts were made to", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 182}
+{"prompt": "This algorithm is efficient because", "domain": "explanation", "source": "template_fixed", "id": 183}
+{"prompt": "Experts studying the new vaccine discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 184}
+{"prompt": "The letter began with the words,", "domain": "story", "source": "template_fixed", "id": 185}
+{"prompt": "Mount Everest is located in", "domain": "factual", "source": "template_fixed", "id": 186}
+{"prompt": "Everyone was talking about the tax reform because", "domain": "explanation_slot", "source": "template_slot", "id": 187}
+{"prompt": "\"Why did you do that?\" she demanded,", "domain": "dialogue", "source": "template_fixed", "id": 188}
+{"prompt": "Everyone was talking about the new smartphone because", "domain": "explanation_slot", "source": "template_slot", "id": 189}
+{"prompt": "The debate over the power outage continued because", "domain": "explanation_slot", "source": "template_slot", "id": 190}
+{"prompt": "The news report about the new smartphone explained that", "domain": "explanation_slot", "source": "template_slot", "id": 191}
+{"prompt": "Everyone was talking about the music festival because", "domain": "explanation_slot", "source": "template_slot", "id": 192}
+{"prompt": "The author of the novel was", "domain": "factual", "source": "template_fixed", "id": 193}
+{"prompt": "A recent study on the wildlife reserve found that", "domain": "explanation_slot", "source": "template_slot", "id": 194}
+{"prompt": "Picturesque Children of the Allies ; J.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 195}
+{"prompt": "Perhaps the most illuminating points of the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 196}
+{"prompt": "Mahesh Bhatt 's thriller", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 197}
+{"prompt": "Experts studying the interest rate hike discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 198}
+{"prompt": "In 1923 , Barker sent", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 199}
+{"prompt": "The news report about the local election explained that", "domain": "explanation_slot", "source": "template_slot", "id": 200}
+{"prompt": "The country did not have", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 201}
+{"prompt": "The Parable of the Great Supper", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 202}
+{"prompt": "The Sundial Room , also called the Meridian Hall", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 203}
+{"prompt": "Experts studying the local election discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 204}
+{"prompt": "Guardian Angel ; Society for the Preservation of Christian", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 205}
+{"prompt": "Valkyria Chronicles 3 was adapted into a two @-@", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 206}
+{"prompt": "Everyone was talking about the drought because", "domain": "explanation_slot", "source": "template_slot", "id": 207}
+{"prompt": "By the time the train arrived,", "domain": "story", "source": "template_fixed", "id": 208}
+{"prompt": "What I like most about this city is", "domain": "opinion", "source": "template_fixed", "id": 209}
+{"prompt": "Webb demonstrated his aggressiveness when he attempted to sortie", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 210}
+{"prompt": "World War II ended in the year", "domain": "factual", "source": "template_fixed", "id": 211}
+{"prompt": "Elves and Fairies ; S.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 212}
+{"prompt": "One advantage of solar power is", "domain": "opinion", "source": "template_fixed", "id": 213}
+{"prompt": "\" There 's Got to Be a Way \"", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 214}
+{"prompt": "The news report about the drought explained that", "domain": "explanation_slot", "source": "template_slot", "id": 215}
+{"prompt": "The music was composed", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 216}
+{"prompt": "DNA is made up of", "domain": "factual", "source": "template_fixed", "id": 217}
+{"prompt": "Translate the phrase into French:", "domain": "instruction", "source": "template_fixed", "id": 218}
+{"prompt": "Without warning, the door", "domain": "story", "source": "template_fixed", "id": 219}
+{"prompt": "A recent study on the highway project found that", "domain": "explanation_slot", "source": "template_slot", "id": 220}
+{"prompt": "Everyone was talking about the power outage because", "domain": "explanation_slot", "source": "template_slot", "id": 221}
+{"prompt": "A triangle has three", "domain": "factual", "source": "template_fixed", "id": 222}
+{"prompt": "On its day of", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 223}
+{"prompt": "Fernandez 's first release of 2013 was Race", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 224}
+{"prompt": "To bake a cake, first", "domain": "instruction", "source": "template_fixed", "id": 225}
+{"prompt": "The chemical symbol for gold is", "domain": "factual", "source": "template_fixed", "id": 226}
+{"prompt": "List one benefit of drinking water, such as", "domain": "instruction", "source": "template_fixed", "id": 227}
+{"prompt": "Before starting the workout, remember to", "domain": "instruction", "source": "template_fixed", "id": 228}
+{"prompt": "One of the most popular actresses in India ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 229}
+{"prompt": "Experts studying the highway project discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 230}
+{"prompt": "The capital of France is", "domain": "factual", "source": "template_fixed", "id": 231}
+{"prompt": "Fernandez was born on", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 232}
+{"prompt": "This code runs slowly because", "domain": "explanation", "source": "template_fixed", "id": 233}
+{"prompt": "A recent study on artificial intelligence found that", "domain": "explanation_slot", "source": "template_slot", "id": 234}
+{"prompt": "Barker worked principally in watercolor with pen", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 235}
+{"prompt": "The news report about the interest rate hike explained that", "domain": "explanation_slot", "source": "template_slot", "id": 236}
+{"prompt": "In the 1880s , the federal government", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 237}
+{"prompt": "A recent study on the labor strike found that", "domain": "explanation_slot", "source": "template_slot", "id": 238}
+{"prompt": "Honestly, the movie was", "domain": "opinion", "source": "template_fixed", "id": 239}
+{"prompt": "According to the report, the number of cases", "domain": "factual", "source": "template_fixed", "id": 240}
+{"prompt": "A Child \u2019 s Garden of Verses ( Robert", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 241}
+{"prompt": "Everyone was talking about renewable energy because", "domain": "explanation_slot", "source": "template_slot", "id": 242}
+{"prompt": "The news report about the music festival explained that", "domain": "explanation_slot", "source": "template_slot", "id": 243}
+{"prompt": "A recent study on the medical trial found that", "domain": "explanation_slot", "source": "template_slot", "id": 244}
+{"prompt": "A recent study on the drought found that", "domain": "explanation_slot", "source": "template_slot", "id": 245}
+{"prompt": "Please summarize the following in one sentence:", "domain": "instruction", "source": "template_fixed", "id": 246}
+{"prompt": "The second stage of", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 247}
+{"prompt": "Experts studying the drought discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 248}
+{"prompt": "Overall, I believe this decision", "domain": "opinion", "source": "template_fixed", "id": 249}
+{"prompt": "At the outbreak of World War", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 250}
+{"prompt": "The main reason is", "domain": "story", "source": "template_fixed", "id": 251}
+{"prompt": "The population of the country grew to", "domain": "factual", "source": "template_fixed", "id": 252}
+{"prompt": "Barker 's mother died in 1960 , and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 253}
+{"prompt": "The news report about the medical trial explained that", "domain": "explanation_slot", "source": "template_slot", "id": 254}
+{"prompt": "M1842 .69 cal smoothbore ( percussion )", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 255}
+{"prompt": "Flower Fairies of the Summer", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 256}
+{"prompt": "A major mutiny among crews of the armored cruisers", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 257}
+{"prompt": "Out of Great Tribulation ; memorial chapel", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 258}
+{"prompt": "Christmas cards ( US", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 259}
+{"prompt": "Hall 's carbines 267", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 260}
+{"prompt": "Everyone was talking about the football match because", "domain": "explanation_slot", "source": "template_slot", "id": 261}
+{"prompt": "The news report about the immigration debate explained that", "domain": "explanation_slot", "source": "template_slot", "id": 262}
+{"prompt": "At the same time , his mother Loretta", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 263}
+{"prompt": "Everyone was talking about artificial intelligence because", "domain": "explanation_slot", "source": "template_slot", "id": 264}
+{"prompt": "This medicine works by", "domain": "explanation", "source": "template_fixed", "id": 265}
+{"prompt": "The debate over the trade agreement continued because", "domain": "explanation_slot", "source": "template_slot", "id": 266}
+{"prompt": "Religious @-@ themed books include The Children 's Book", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 267}
+{"prompt": "The economy slowed down because", "domain": "explanation", "source": "template_fixed", "id": 268}
+{"prompt": "Cradle roll design ; St.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 269}
+{"prompt": "Autumn Songs with Music ; Blackie , 1927", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 270}
+{"prompt": "Flower Fairies of the Trees ; Blackie", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 271}
+{"prompt": "Erzherzog Ferdinand Max carried a primary armament of four", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 272}
+{"prompt": "The debate over the chess tournament continued because", "domain": "explanation_slot", "source": "template_slot", "id": 273}
+{"prompt": "Columbus started March with a 2 \u2013 0 shutout", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 274}
+{"prompt": "Benthic in nature , the plain maskray feeds", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 275}
+{"prompt": "Everyone was talking about the archaeological dig because", "domain": "explanation_slot", "source": "template_slot", "id": 276}
+{"prompt": "A recent study on the space mission found that", "domain": "explanation_slot", "source": "template_slot", "id": 277}
+{"prompt": "The news report about the trade agreement explained that", "domain": "explanation_slot", "source": "template_slot", "id": 278}
+{"prompt": "Water boils at a temperature of", "domain": "factual", "source": "template_fixed", "id": 279}
+{"prompt": "A recent study on the housing market found that", "domain": "explanation_slot", "source": "template_slot", "id": 280}
+{"prompt": "N @-@ 88 starts at", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 281}
+{"prompt": "A recent study on the merger found that", "domain": "explanation_slot", "source": "template_slot", "id": 282}
+{"prompt": "Guard , office , and police duties", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 283}
+{"prompt": "\"Something's wrong,\" he whispered, because", "domain": "dialogue", "source": "template_fixed", "id": 284}
+{"prompt": "Experts studying the fashion show discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 285}
+{"prompt": "A recent study on the archaeological dig found that", "domain": "explanation_slot", "source": "template_slot", "id": 286}
+{"prompt": "In 2008 , Fernandez", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 287}
+{"prompt": "Everyone was talking about the interest rate hike because", "domain": "explanation_slot", "source": "template_slot", "id": 288}
+{"prompt": "The family of four", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 289}
+{"prompt": "Everyone was talking about the highway project because", "domain": "explanation_slot", "source": "template_slot", "id": 290}
+{"prompt": "Rhymes New and Old ; Blackie ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 291}
+{"prompt": "Wild Cherry Makes A Wish", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 292}
+{"prompt": "Everyone was talking about the school curriculum because", "domain": "explanation_slot", "source": "template_slot", "id": 293}
+{"prompt": "The Gambia also has", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 294}
+{"prompt": "In the early 2013 , Fernandez became", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 295}
+{"prompt": "Cullen appeared in four of the Lightning 's first", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 296}
+{"prompt": "National Mission ; Society for the Preservation", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 297}
+{"prompt": "The debate over the startup continued because", "domain": "explanation_slot", "source": "template_slot", "id": 298}
+{"prompt": "Experts studying the archaeological dig discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 299}
+{"prompt": "It met with positive sales in", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 300}
+{"prompt": "The news report about the census data explained that", "domain": "explanation_slot", "source": "template_slot", "id": 301}
+{"prompt": "Flower Fairies of the Garden ; Blackie ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 302}
+{"prompt": "\"Welcome home,\" they shouted as", "domain": "dialogue", "source": "template_fixed", "id": 303}
+{"prompt": "Supporters of the proposal claim", "domain": "opinion", "source": "template_fixed", "id": 304}
+{"prompt": "Flower Fairies of the Wayside ; Blackie ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 305}
+{"prompt": "The fourth stage involved remedying the problem of", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 306}
+{"prompt": "A common misconception is that", "domain": "opinion", "source": "template_fixed", "id": 307}
+{"prompt": "\"That's impossible,\" the scientist replied,", "domain": "dialogue", "source": "template_fixed", "id": 308}
+{"prompt": "For most of World War", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 309}
+{"prompt": "M1822 .69 cal ( flintlock ) 5", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 310}
+{"prompt": "Experts studying the robotics competition discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 311}
+{"prompt": "The Little Rock Arsenal was classified", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 312}
+{"prompt": "Barker was a devout Christian", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 313}
+{"prompt": "The debate over renewable energy continued because", "domain": "explanation_slot", "source": "template_slot", "id": 314}
+{"prompt": "Following the break , the Blue Jackets were", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 315}
+{"prompt": "A \" Summary of the Work Done for", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 316}
+{"prompt": "The experiment failed because", "domain": "explanation", "source": "template_fixed", "id": 317}
+{"prompt": "Everyone was talking about the art exhibit because", "domain": "explanation_slot", "source": "template_slot", "id": 318}
+{"prompt": "In Hartford , Cullen worked to", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 319}
+{"prompt": "The largest planet in the solar system is", "domain": "factual", "source": "template_fixed", "id": 320}
+{"prompt": "On one day during his treatments", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 321}
+{"prompt": "It seems clear to me that", "domain": "opinion", "source": "template_fixed", "id": 322}
+{"prompt": "The brothers Asa and Nelson Tift received", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 323}
+{"prompt": "On 31 July 1862 , under the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 324}
+{"prompt": "A recent study on ocean pollution found that", "domain": "explanation_slot", "source": "template_slot", "id": 325}
+{"prompt": "To solve the equation, begin by", "domain": "instruction", "source": "template_fixed", "id": 326}
+{"prompt": "In 1940 , the Barker 's live", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 327}
+{"prompt": "Experts studying the immigration debate discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 328}
+{"prompt": "Except for \u00c6sthetic Club meetings", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 329}
+{"prompt": "At the halfway point of the season", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 330}
+{"prompt": "The debate over the archaeological dig continued because", "domain": "explanation_slot", "source": "template_slot", "id": 331}
+{"prompt": "The debate over the labor strike continued because", "domain": "explanation_slot", "source": "template_slot", "id": 332}
+{"prompt": "Fernandez shares a close bond with her family ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 333}
+{"prompt": "The most underrated benefit of exercise is", "domain": "opinion", "source": "template_fixed", "id": 334}
+{"prompt": "She realized that", "domain": "story", "source": "template_fixed", "id": 335}
+{"prompt": "In 2015 , Fernandez featured", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 336}
+{"prompt": "Simon the Swan ; Blackie , 1988", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 337}
+{"prompt": "The news report about the robotics competition explained that", "domain": "explanation_slot", "source": "template_slot", "id": 338}
+{"prompt": "Everyone was talking about the chess tournament because", "domain": "explanation_slot", "source": "template_slot", "id": 339}
+{"prompt": "A recent study on the software update found that", "domain": "explanation_slot", "source": "template_slot", "id": 340}
+{"prompt": "Everyone was talking about ocean pollution because", "domain": "explanation_slot", "source": "template_slot", "id": 341}
+{"prompt": "A recent study on the chess tournament found that", "domain": "explanation_slot", "source": "template_slot", "id": 342}
+{"prompt": "Experts studying the currency exchange discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 343}
+{"prompt": "Everyone was talking about the local election because", "domain": "explanation_slot", "source": "template_slot", "id": 344}
+{"prompt": "The Lord of the Rushie River", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 345}
+{"prompt": "Everyone was talking about the housing market because", "domain": "explanation_slot", "source": "template_slot", "id": 346}
+{"prompt": "In 1911 , Raphael Tuck & Sons bought four", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 347}
+{"prompt": "The interior walls and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 348}
+{"prompt": "The 2011 \u2013 12", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 349}
+{"prompt": "For several years the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 350}
+{"prompt": "The dragon slowly opened its eyes and", "domain": "story", "source": "template_fixed", "id": 351}
+{"prompt": "\"I don't think that's a good idea,\" said Sam,", "domain": "dialogue", "source": "template_fixed", "id": 352}
+{"prompt": "It was a dark and stormy night when", "domain": "story", "source": "template_fixed", "id": 353}
+{"prompt": "Experts studying the housing market discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 354}
+{"prompt": "Banner design ; St.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 355}
+{"prompt": "The soldiers would be allowed to", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 356}
+{"prompt": "The debate over the immigration debate continued because", "domain": "explanation_slot", "source": "template_slot", "id": 357}
+{"prompt": "A Flower Fairy Alphabet ; Blackie , 1934", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 358}
+{"prompt": "A recent study on the music festival found that", "domain": "explanation_slot", "source": "template_slot", "id": 359}
+{"prompt": "The arsenal was listed", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 360}
+{"prompt": "Like other stingrays , the plain maskray is", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 361}
+{"prompt": "Experts studying the ancient ruins discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 362}
+{"prompt": "Cullen enjoyed immediate success with linemates Shawn Burr", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 363}
+{"prompt": "In 2008 and 2011 , Fernandez featured in the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 364}
+{"prompt": "Senj\u014d no Valkyria 3 : Unrecorded", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 365}
+{"prompt": "Everyone was talking about the volcano because", "domain": "explanation_slot", "source": "template_slot", "id": 366}
+{"prompt": "Of this number , approximately 9600 weapons", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 367}
+{"prompt": "In simple terms, this works because", "domain": "explanation", "source": "template_fixed", "id": 368}
+{"prompt": "The first stage of building of the tower", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 369}
+{"prompt": "Experts studying the space mission discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 370}
+{"prompt": "The debate over the currency exchange continued because", "domain": "explanation_slot", "source": "template_slot", "id": 371}
+{"prompt": "The tower had two floors and a mezzanine", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 372}
+{"prompt": "The debate over the interest rate hike continued because", "domain": "explanation_slot", "source": "template_slot", "id": 373}
+{"prompt": "Nebraska Highway 88 ( N @-@", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 374}
+{"prompt": "The news report about the coral reefs explained that", "domain": "explanation_slot", "source": "template_slot", "id": 375}
+{"prompt": "The game takes place", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 376}
+{"prompt": "Lively Stories ; Macmillan ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 377}
+{"prompt": "The children in the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 378}
+{"prompt": "Experts studying the new smartphone discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 379}
+{"prompt": "Erzherzog Ferdinand Max displaced", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 380}
+{"prompt": "The debate over the new vaccine continued because", "domain": "explanation_slot", "source": "template_slot", "id": 381}
+{"prompt": "The debate over the tax reform continued because", "domain": "explanation_slot", "source": "template_slot", "id": 382}
+{"prompt": "Once upon a time, the old sailor", "domain": "story", "source": "template_fixed", "id": 383}
+{"prompt": "117 rounds , 6 @-@ pounder", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 384}
+{"prompt": "Ancient Egyptian deities are", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 385}
+{"prompt": "He Leadeth Me ( written in collaboration with", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 386}
+{"prompt": "A recent study on the startup found that", "domain": "explanation_slot", "source": "template_slot", "id": 387}
+{"prompt": "A recent study on the fashion show found that", "domain": "explanation_slot", "source": "template_slot", "id": 388}
+{"prompt": "The news report about the highway project explained that", "domain": "explanation_slot", "source": "template_slot", "id": 389}
+{"prompt": "Goals Against ; GAA = Goals Against", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 390}
+{"prompt": "How to find Flower Fairies ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 391}
+{"prompt": "Barker took correspondence courses in", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 392}
+{"prompt": "A Little Book of Old Rhymes ; Blackie", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 393}
+{"prompt": "Everyone was talking about the robotics competition because", "domain": "explanation_slot", "source": "template_slot", "id": 394}
+{"prompt": "Everyone was talking about the immigration debate because", "domain": "explanation_slot", "source": "template_slot", "id": 395}
+{"prompt": "The Gregorian Tower ( Italian : Torre Gregoriana", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 396}
+{"prompt": "The first scientific description of the plain", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 397}
+{"prompt": "He answered,", "domain": "story", "source": "template_fixed", "id": 398}
+{"prompt": "The debate over the national park continued because", "domain": "explanation_slot", "source": "template_slot", "id": 399}
+{"prompt": "In a 2012 phylogenetic analysis based on", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 400}
+{"prompt": "The governor would take", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 401}
+{"prompt": "Lettering , sword , and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 402}
+{"prompt": "The news report about the housing market explained that", "domain": "explanation_slot", "source": "template_slot", "id": 403}
+{"prompt": "After the end of the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 404}
+{"prompt": "Cullen was a standout with BU ; he was", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 405}
+{"prompt": "The biggest problem with this plan is", "domain": "opinion", "source": "template_fixed", "id": 406}
+{"prompt": "The Flower Fairy Picture Book ; Blackie , 1955", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 407}
+{"prompt": "43 Annuals ; Blackie , 1920s , 1930s", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 408}
+{"prompt": "Cecily 's Garden ; 1920", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 409}
+{"prompt": "Seaside Holiday ; J.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 410}
+{"prompt": "Shakespeare 's Boy Characters ; C.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 411}
+{"prompt": "Lively Numbers ; Macmillan , 1957", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 412}
+{"prompt": "A recent study on the ancient ruins found that", "domain": "explanation_slot", "source": "template_slot", "id": 413}
+{"prompt": "For the ironclad present at the Battle of Lissa", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 414}
+{"prompt": "Vaccines are effective because", "domain": "explanation", "source": "template_fixed", "id": 415}
+{"prompt": "The first written evidence", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 416}
+{"prompt": "130 rounds , 6 @-@", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 417}
+{"prompt": "The child looked up and said,", "domain": "story", "source": "template_fixed", "id": 418}
+{"prompt": "2 @,@ 236 shotguns and rifles ( repaired", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 419}
+{"prompt": "The company reported earnings of", "domain": "factual", "source": "template_fixed", "id": 420}
+{"prompt": "The first president of the United States was", "domain": "factual", "source": "template_fixed", "id": 421}
+{"prompt": "\"We need to talk,\" he said quietly,", "domain": "dialogue", "source": "template_fixed", "id": 422}
+{"prompt": "\u2020 Denotes player spent time", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 423}
+{"prompt": "Finishing with the worst record", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 424}
+{"prompt": "The game 's battle system , the BliTZ", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 425}
+{"prompt": "Atlanta was easily pulled free by", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 426}
+{"prompt": "The Feeding of the Five Thousand", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 427}
+{"prompt": "The news report about the startup explained that", "domain": "explanation_slot", "source": "template_slot", "id": 428}
+{"prompt": "The signal was lost because", "domain": "explanation", "source": "template_fixed", "id": 429}
+{"prompt": "A lookout aboard Weehawken", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 430}
+{"prompt": "The best part of the trip was", "domain": "opinion", "source": "template_fixed", "id": 431}
+{"prompt": "Barry John Cullen ( born August", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 432}
+{"prompt": "Former Lightning head coach Terry Crisp has", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 433}
+{"prompt": "Atlanta was a casemate ironclad that", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 434}
+{"prompt": "Everyone was talking about the border dispute because", "domain": "explanation_slot", "source": "template_slot", "id": 435}
+{"prompt": "The strongest argument for this policy is", "domain": "opinion", "source": "template_fixed", "id": 436}
+{"prompt": "In the early evening of 15 June ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 437}
+{"prompt": "Everyone was talking about climate change because", "domain": "explanation_slot", "source": "template_slot", "id": 438}
+{"prompt": "Gods were assumed to be present", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 439}
+{"prompt": "The anime 's title was inspired by the principle", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 440}
+{"prompt": "The news report about the software update explained that", "domain": "explanation_slot", "source": "template_slot", "id": 441}
+{"prompt": "In the late 1920s", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 442}
+{"prompt": "A recent study on the border dispute found that", "domain": "explanation_slot", "source": "template_slot", "id": 443}
+{"prompt": "Cicely Mary Barker ( 28 June 1895 \u2013 16", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 444}
+{"prompt": "In September 2010 , a teaser website was revealed", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 445}
+{"prompt": "Many experts agree that", "domain": "opinion", "source": "template_fixed", "id": 446}
+{"prompt": "In a preview of the TGS demo , Ryan", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 447}
+{"prompt": "A recent study on climate change found that", "domain": "explanation_slot", "source": "template_slot", "id": 448}
+{"prompt": "Near the end of World War I ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 449}
+{"prompt": "Everyone was talking about the new vaccine because", "domain": "explanation_slot", "source": "template_slot", "id": 450}
+{"prompt": "In 2009 , Fernandez traveled", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 451}
+{"prompt": "The Sand , the Sea and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 452}
+{"prompt": "Experts studying the census data discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 453}
+{"prompt": "According to Fernandez ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 454}
+{"prompt": "Somewhere over the mountains,", "domain": "story", "source": "template_fixed", "id": 455}
+{"prompt": "Everyone was talking about the wildlife reserve because", "domain": "explanation_slot", "source": "template_slot", "id": 456}
+{"prompt": "The debate over the school curriculum continued because", "domain": "explanation_slot", "source": "template_slot", "id": 457}
+{"prompt": "The Pre @-@ Raphaelites were a strong , lifelong", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 458}
+{"prompt": "After the war ended, the town", "domain": "story", "source": "template_fixed", "id": 459}
+{"prompt": "PlayStation Official Magazine - UK praised the story", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 460}
+{"prompt": "Shakespeare 's Girl Characters ; C.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 461}
+{"prompt": "Troops are divided into five classes : Scouts", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 462}
+{"prompt": "The majority of material created for", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 463}
+{"prompt": "A recent study on the new vaccine found that", "domain": "explanation_slot", "source": "template_slot", "id": 464}
+{"prompt": "Barker continued to attend evening", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 465}
+{"prompt": "However , a bout of bronchitis led", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 466}
+{"prompt": "\"This changes everything,\" muttered the captain,", "domain": "dialogue", "source": "template_fixed", "id": 467}
+{"prompt": "The study found that participants", "domain": "factual", "source": "template_fixed", "id": 468}
+{"prompt": "When packing for a trip, don't forget to", "domain": "instruction", "source": "template_fixed", "id": 469}
+{"prompt": "A recent study on the art exhibit found that", "domain": "explanation_slot", "source": "template_slot", "id": 470}
+{"prompt": "\"Are you coming with us?\" asked Liam,", "domain": "dialogue", "source": "template_fixed", "id": 471}
+{"prompt": "Flower Fairies of the Autumn ; Blackie ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 472}
+{"prompt": "\"I promise I'll be there,\" she said,", "domain": "dialogue", "source": "template_fixed", "id": 473}
+{"prompt": "The debate over ocean pollution continued because", "domain": "explanation_slot", "source": "template_slot", "id": 474}
+{"prompt": "During the off @-@ season", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 475}
+{"prompt": "Dunnington 's \" Returns for the month of", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 476}
+{"prompt": "The Tower Building of the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 477}
+{"prompt": "A recent study on urban farming found that", "domain": "explanation_slot", "source": "template_slot", "id": 478}
+{"prompt": "The news report about the chess tournament explained that", "domain": "explanation_slot", "source": "template_slot", "id": 479}
+{"prompt": "As of September 2015 , Fernandez has", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 480}
+{"prompt": "To sign up, click the button and", "domain": "instruction", "source": "template_fixed", "id": 481}
+{"prompt": "The news report about the border dispute explained that", "domain": "explanation_slot", "source": "template_slot", "id": 482}
+{"prompt": "The Children \u2019 s", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 483}
+{"prompt": "Experts studying the chess tournament discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 484}
+{"prompt": "Experts studying the trade agreement discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 485}
+{"prompt": "Flower Fairies of the Winter", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 486}
+{"prompt": "The Blue Jackets began the year with the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 487}
+{"prompt": "The revival of the observatory on the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 488}
+{"prompt": "As the sun set, the village", "domain": "story", "source": "template_fixed", "id": 489}
+{"prompt": "The debate over the new smartphone continued because", "domain": "explanation_slot", "source": "template_slot", "id": 490}
+{"prompt": "The recipe works because", "domain": "explanation", "source": "template_fixed", "id": 491}
+{"prompt": "A recent study on the currency exchange found that", "domain": "explanation_slot", "source": "template_slot", "id": 492}
+{"prompt": "Experts studying the startup discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 493}
+{"prompt": "The debate over the software update continued because", "domain": "explanation_slot", "source": "template_slot", "id": 494}
+{"prompt": "A recent study on the coral reefs found that", "domain": "explanation_slot", "source": "template_slot", "id": 495}
+{"prompt": "The news report about the volcano explained that", "domain": "explanation_slot", "source": "template_slot", "id": 496}
+{"prompt": "The debate over the local election continued because", "domain": "explanation_slot", "source": "template_slot", "id": 497}
+{"prompt": "Cullen is the namesake of the John Cullen", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 498}
+{"prompt": "\"I can't believe it,\" she said, because", "domain": "dialogue", "source": "template_fixed", "id": 499}
+{"prompt": "Cullen and his wife Valerie have three daughters ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 500}
+{"prompt": "Following her father \u2019 s death", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 501}
+{"prompt": "A Little Book of Prayers and Hymns ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 502}
+{"prompt": "The United States troops at the outposts of the", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 503}
+{"prompt": "A recent study on the trade agreement found that", "domain": "explanation_slot", "source": "template_slot", "id": 504}
+{"prompt": "In the off @-@ season the Blue", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 505}
+{"prompt": "14 @,@ 000 buck & ball", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 506}
+{"prompt": "\"What do you mean?\" he asked, and", "domain": "dialogue", "source": "template_fixed", "id": 507}
+{"prompt": "\" There 's Got to", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 508}
+{"prompt": "The debate over the art exhibit continued because", "domain": "explanation_slot", "source": "template_slot", "id": 509}
+{"prompt": "bold - qualified for playoffs , y", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 510}
+{"prompt": "Complete the form by entering your", "domain": "instruction", "source": "template_fixed", "id": 511}
+{"prompt": "This happens mainly because", "domain": "explanation", "source": "template_fixed", "id": 512}
+{"prompt": "Everyone was talking about the fashion show because", "domain": "explanation_slot", "source": "template_slot", "id": 513}
+{"prompt": "Explain how to change a tire by", "domain": "instruction", "source": "template_fixed", "id": 514}
+{"prompt": "Concept work for Valkyria Chronicles", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 515}
+{"prompt": "The debate over the highway project continued because", "domain": "explanation_slot", "source": "template_slot", "id": 516}
+{"prompt": "The arsenal was briefly seized", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 517}
+{"prompt": "Experts studying the satellite launch discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 518}
+{"prompt": "As with previous Valkyira Chronicles games ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 519}
+{"prompt": "The debate over the wildlife reserve continued because", "domain": "explanation_slot", "source": "template_slot", "id": 520}
+{"prompt": "To fix the bug, the developer needs to", "domain": "instruction", "source": "template_fixed", "id": 521}
+{"prompt": "The debate over the medical trial continued because", "domain": "explanation_slot", "source": "template_slot", "id": 522}
+{"prompt": "\"Trust me on this one,\" she insisted,", "domain": "dialogue", "source": "template_fixed", "id": 523}
+{"prompt": "SMS Erzherzog Ferdinand Max ( German : \" His", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 524}
+{"prompt": "The debate over the border dispute continued because", "domain": "explanation_slot", "source": "template_slot", "id": 525}
+{"prompt": "The news report about the national park explained that", "domain": "explanation_slot", "source": "template_slot", "id": 526}
+{"prompt": "The worst part about traffic is", "domain": "opinion", "source": "template_fixed", "id": 527}
+{"prompt": "Experts studying artificial intelligence discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 528}
+{"prompt": "The building receives its name from", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 529}
+{"prompt": "The debate over the volcano continued because", "domain": "explanation_slot", "source": "template_slot", "id": 530}
+{"prompt": "Write a short note thanking a friend for", "domain": "instruction", "source": "template_fixed", "id": 531}
+{"prompt": "A recent study on the school curriculum found that", "domain": "explanation_slot", "source": "template_slot", "id": 532}
+{"prompt": "Experts studying the merger discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 533}
+{"prompt": "While on a modelling", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 534}
+{"prompt": "To understand the theorem, first note that", "domain": "explanation", "source": "template_fixed", "id": 535}
+{"prompt": "The Gambia women 's national", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 536}
+{"prompt": "96 ammunition packing boxes", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 537}
+{"prompt": "M1822 .69 cal ( percussion @-@", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 538}
+{"prompt": "Flower Fairies of the Flowers and Trees", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 539}
+{"prompt": "The military force at Little Rock under Dunnington", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 540}
+{"prompt": "Columbus also traded former", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 541}
+{"prompt": "In 1997 , the Museum of Science and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 542}
+{"prompt": "Unlike its two predecessors , Valkyria Chronicles", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 543}
+{"prompt": "The Lightning signed Cullen to a one @-@", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 544}
+{"prompt": "Child Thoughts in Picture and Verse ( by M.", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 545}
+{"prompt": "Experts studying ocean pollution discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 546}
+{"prompt": "The game began development in 2010 , carrying over", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 547}
+{"prompt": "A recent study on the football match found that", "domain": "explanation_slot", "source": "template_slot", "id": 548}
+{"prompt": "The stock market closed today with", "domain": "factual", "source": "template_fixed", "id": 549}
+{"prompt": "John the Baptist ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 550}
+{"prompt": "In ice hockey , a combination", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 551}
+{"prompt": "With the losing continuing , more rumors", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 552}
+{"prompt": "To reset the router, you should", "domain": "instruction", "source": "template_fixed", "id": 553}
+{"prompt": "Red background indicates regulation", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 554}
+{"prompt": "Summer Songs with Music ; Blackie ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 555}
+{"prompt": "The news report about the satellite launch explained that", "domain": "explanation_slot", "source": "template_slot", "id": 556}
+{"prompt": "Everyone was talking about the currency exchange because", "domain": "explanation_slot", "source": "template_slot", "id": 557}
+{"prompt": "The news report about ocean pollution explained that", "domain": "explanation_slot", "source": "template_slot", "id": 558}
+{"prompt": "Fingal was designed and built as", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 559}
+{"prompt": "\"Are you sure about this?\" she whispered,", "domain": "dialogue", "source": "template_fixed", "id": 560}
+{"prompt": "\"Watch out!\" he yelled, just as", "domain": "dialogue", "source": "template_fixed", "id": 561}
+{"prompt": "A recent study on the tax reform found that", "domain": "explanation_slot", "source": "template_slot", "id": 562}
+{"prompt": "\" Machinery was made for manufacturing percussion caps and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 563}
+{"prompt": "A recent study on the local election found that", "domain": "explanation_slot", "source": "template_slot", "id": 564}
+{"prompt": "752 packages of ordnance and ordnance stores received and", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 565}
+{"prompt": "Experts studying the tax reform discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 566}
+{"prompt": "Green background indicates win ( 2 points", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 567}
+{"prompt": "The debate over the ancient ruins continued because", "domain": "explanation_slot", "source": "template_slot", "id": 568}
+{"prompt": "The soldiers would be allowed safe passage in any", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 569}
+{"prompt": "Save Percentage ; SO = Shutouts", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 570}
+{"prompt": "The new policy will take effect on", "domain": "factual", "source": "template_fixed", "id": 571}
+{"prompt": "Hall 's rifles ( flintlock", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 572}
+{"prompt": "In 1924 , the family", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 573}
+{"prompt": "The tail is short ,", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 574}
+{"prompt": "On the day of the wedding,", "domain": "story", "source": "template_fixed", "id": 575}
+{"prompt": "The font in St Andrew", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 576}
+{"prompt": "Years later, they finally", "domain": "story", "source": "template_fixed", "id": 577}
+{"prompt": "Deep in the forest, the travelers found", "domain": "story", "source": "template_fixed", "id": 578}
+{"prompt": "Experts studying the music festival discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 579}
+{"prompt": "Perhaps because Abraham Lincoln had not yet been inaugurated", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 580}
+{"prompt": "The news report about the space mission explained that", "domain": "explanation_slot", "source": "template_slot", "id": 581}
+{"prompt": "Fairyopolis ; Frederick Warne , 2005", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 582}
+{"prompt": "The plain maskray inhabits the continental shelf", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 583}
+{"prompt": "A month later , on May 14", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 584}
+{"prompt": "In 2014 , Fernandez appeared", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 585}
+{"prompt": "The detective walked into the room and", "domain": "story", "source": "template_fixed", "id": 586}
+{"prompt": "The rectangular casemate was", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 587}
+{"prompt": "The news report about the new vaccine explained that", "domain": "explanation_slot", "source": "template_slot", "id": 588}
+{"prompt": "A Flower Fairies Treasury ; Frederick Warne", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 589}
+{"prompt": "Experts studying the labor strike discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 590}
+{"prompt": "The plain maskray or brown stingray", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 591}
+{"prompt": "In 1873 , the building was renamed Little", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 592}
+{"prompt": "Flower Fairies of the Seasons ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 593}
+{"prompt": "Experts studying the football match discovered that", "domain": "explanation_slot", "source": "template_slot", "id": 594}
+{"prompt": "Silver background indicates overtime / shootout loss", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 595}
+{"prompt": "When Spring Came In at the Window ;", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 596}
+{"prompt": "A major concern with this technology is", "domain": "opinion", "source": "template_fixed", "id": 597}
+{"prompt": "This ammunition , and that which I brought with", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 598}
+{"prompt": "\" There 's Got", "domain": "corpus_wikitext", "source": "wikitext-103-raw-v1", "id": 599}

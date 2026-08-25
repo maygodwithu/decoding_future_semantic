@@ -1,0 +1,8 @@
+Comparison,Mean difference (probe - other),95% CI low,95% CI high,Excludes 0?
+Probe - Tuned Lens (layer 20),0.3063,0.2675,0.3420,Yes
+Probe - Future-Lens-style m=3,0.2330,0.1962,0.2690,Yes
+Probe - Future-Lens-style m=5,0.2213,0.1878,0.2540,Yes
+Probe - Future-Lens-style m=10,0.1975,0.1644,0.2291,Yes
+Probe - Rollout m=3,0.0446,-0.0028,0.0913,No
+Probe - Rollout m=5,-0.1321,-0.1806,-0.0843,Yes
+Probe - Rollout m=10,-0.3845,-0.4203,-0.3484,Yes

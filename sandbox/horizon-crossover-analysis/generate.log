@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[generate] 600 raw prompts loaded
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 6854.93it/s]
+[generate] gen batch 1/19 (6.6s)
+[generate] gen batch 6/19 (10.4s)
+[generate] gen batch 11/19 (14.2s)
+[generate] gen batch 16/19 (18.0s)
+[generate] gen batch 19/19 (20.5s)
+[generate] usable (realized_len >= 16) = 600 / 600
+[generate] split sizes: train=420 val=90 test=90
+[generate] hidden batch 1/19 (20.6s)
+[generate] hidden batch 6/19 (20.7s)
+[generate] hidden batch 11/19 (20.8s)
+[generate] hidden batch 16/19 (20.9s)
+[generate] hidden batch 19/19 (21.0s)
+[generate] done in 21.0s; peak GPU mem 3.58GB
+[generate] metadata: {'model_name': 'EleutherAI/pythia-1.4b', 'decode': 'greedy', 'decoding_params': {'do_sample': False, 'num_beams': 1, 'max_new_tokens': 96}, 'n_usable_prompts': 600, 'max_new_tokens': 96, 'min_gen_tokens_filter': 16, 'seed': 42, 'n_layers': 24, 'hidden_dim': 2048, 'layers_extracted': [4, 8, 12, 20], 'num_parameters': 1414647808, 'realized_len_mean': 95.69666666666667, 'realized_len_median': 96.0, 'frac_hit_eos_before_96': 0.015}

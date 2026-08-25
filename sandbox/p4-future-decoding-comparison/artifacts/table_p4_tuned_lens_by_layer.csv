@@ -1,0 +1,5 @@
+Layer,Best variant,Val cosine,Test cosine,Next-token top1 acc (test)
+4,topk_concat_k5,0.0922,0.0992,0.4713
+8,topk_concat_k1,0.0968,0.1068,0.4598
+12,topk_concat_k1,0.1098,0.1039,0.5057
+20,topk_concat_k5,0.1516,0.1442,0.5862

@@ -1,0 +1,7 @@
+Encoder,Best layer,Probe,Mean,Random,TF-IDF,Best logit-lens,Rollout-3,Rollout-5,R@1,R@5,Mean rank,Protocol
+E1_MiniLM,20,0.4283,0.2310,0.0616,0.3612,0.1812 (topk_weighted_k10),0.4757,0.6371,0.3976,0.7349,5.65,"train-only (canonical, used throughout the paper)"
+E2_BGE,20,0.7034,0.6364,0.4080,0.6624,0.5135 (topk_concat_k10),0.6818,0.7699,0.2048,0.6506,11.34,"train-only (canonical, used throughout the paper)"
+E3_E5,20,0.8574,0.8283,0.6888,0.8455,0.7512 (topk_weighted_k10),0.8209,0.8669,0.3012,0.6145,9.18,"train-only (canonical, used throughout the paper)"
+E1_MiniLM (final-refit diagnostic),20,0.4401,,,,,,,0.4337,0.7590,4.77,"train+val refit (diagnostic only, NOT the paper protocol)"
+E2_BGE (final-refit diagnostic),20,0.7068,,,,,,,0.2410,0.6386,10.66,"train+val refit (diagnostic only, NOT the paper protocol)"
+E3_E5 (final-refit diagnostic),20,0.8593,,,,,,,0.3253,0.6024,8.40,"train+val refit (diagnostic only, NOT the paper protocol)"

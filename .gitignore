@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Environments (contains API keys - never commit)
+.venv/
+.env
+
+# Large / regenerable experiment artifacts (raw hidden states, embeddings,
+# probe weights) - multi-hundred-MB total, individual files exceed GitHub's
+# 100MB limit. Regenerate locally from the scripts + a GPU + the base
+# checkpoints; see README for the pipeline.
+*.pt
+*.npy
+*.npz
+
+# Orchestrator run logs / per-cycle agent working directories (verbose,
+# auto-generated, not needed to understand or rerun the pipeline)
+logs/
+**/runs/
+**/_intermediate/
+
+# OS
+.DS_Store
+Thumbs.db
