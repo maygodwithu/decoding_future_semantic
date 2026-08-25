@@ -8,10 +8,7 @@ Target: interpretability-focused venue (workshop-track framing originally; exten
 
 ## What's here
 
-This repo holds two things:
-
-1. **`paper_agent/`** — a small autonomous Planner → Coder → Critic pipeline (`paper-agent` CLI) that proposed and ran the first eight experiments end-to-end against a GPU server, iterating per experiment until a Critic pass accepted the result.
-2. **`sandbox/`** — one directory per experiment, each self-contained (its own scripts, `report.md`, and result summaries). Some were produced by the `paper_agent` pipeline above; later ones (`p1`–`p4`, `paper-figures`) were follow-up analyses run directly against the same reused data/checkpoints, mostly for IEEE Access-level robustness checks the original workshop-scope experiments didn't need.
+`sandbox/` holds one directory per experiment, each self-contained (its own scripts, `report.md`, and result summaries).
 
 ## Core method (common to nearly every experiment)
 
@@ -25,11 +22,6 @@ Full method details, exact hyperparameters, and honest negative/mixed results (i
 ## Repository layout
 
 ```
-paper_agent/            Autonomous experiment-running CLI (Planner/Coder/Critic loop)
-run_paper.sh             Launches paper_agent inside a detached tmux session
-status.sh                One-line status for every project under sandbox/
-pyproject.toml
-
 sandbox/
   hidden-state-semantic-lookahead/     4.1  baseline semantic recoverability (Pythia-1.4B anchor)
   pythia-scaling-and-controls/         4.2  token-identity + rollout controls; 4.4 scaling + sampling
@@ -70,8 +62,6 @@ scikit-learn >= 1.9
 numpy >= 2.4
 ```
 
-`paper_agent`'s own dependencies are listed in `pyproject.toml`. Each `sandbox/` experiment additionally expects `sentence-transformers`, `scikit-learn`, and `scipy` in whatever environment runs it.
-
 ## Running an experiment
 
 Most `sandbox/<experiment>/` directories are run as a sequence of plain Python scripts from within that directory, e.g.:
@@ -85,9 +75,3 @@ python run_p3.py --stage aggregate
 ```
 
 See the top-of-file docstring in each experiment's main script (and its `report.md`) for the exact invocation and any artifacts it expects to reuse from an earlier experiment.
-
-To launch the autonomous pipeline on a new topic:
-
-```bash
-./run_paper.sh --topic "<research question for the Planner>" --project <folder-name> [--reuse-from <path-to-prior-project>] [--gpu 0] [--hours 8]
-```
